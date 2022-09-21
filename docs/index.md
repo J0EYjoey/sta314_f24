@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Sta314
 ---
 
 # STA314: Statistical Methods for Machine Learning I
