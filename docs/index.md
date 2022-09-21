@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Sta314 in Fall 2022
 ---
 
