@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Sta314 in Fall 2022
-permalink: /course/sta314_f22/
+permalink: /sta314_f22/
 ---
 
 # STA314H1F: Statistical Methods for Machine Learning I
