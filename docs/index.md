@@ -1,9 +1,8 @@
 ---
 layout: home
-title: Sta314 in Fall 2022
 ---
 
-# STA314H1F: Statistical Methods for Machine Learning I
+# STA314: Statistical Methods for Machine Learning I
 
 ### Overview
 
