@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Sta314 in Fall 2022
 permalink: /sta314_f22/
 ---
