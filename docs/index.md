@@ -58,6 +58,11 @@ We will cover statistical methods for supervised and unsupervised learning from 
 | | 203 | | [WB219](https://map.utoronto.ca/?id=1809#!m/494460) | Daniel Eftekhari |
 
 
+### Course email and textbooks
+
+- course email: [sta314@utoronto.ca](mailto:sta314@utoronto.ca) (for requests and communication with instructors)
+- textbook: [An Introduction to Statistical Learning (ISL)](https://www.statlearning.com) 
+
 ---
 
 <br />
@@ -70,8 +75,8 @@ This is a preliminary schedule; it may change throughout the term.
 | --- | ---- | --- | --- | --- |
 | Sep 14 | Logistics + intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
 | Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | None | ISL 2.2, 2.3, 3 |
-| Sep 28 | Model selection, data-splitting, subset selection | [[Slide](/lectures/lec03.pdf)] |  |  |
-| Oct 5 | Model selection via regularization <br /> regularized linear regression | [[Slide](/lectures/lec04.pdf)] |  |  |
+| Sep 28 | Linear regression, data-splitting| [[Slide](/lectures/lec03.pdf)] |  |  |
+| Oct 5 | Best subset selection <br /> regularized linear regression | [[Slide](/lectures/lec04.pdf)] |  |  |
 | Oct 12 | Metric of the fit, linear regression | [[Slide](/lectures/lec05.pdf)] |  |  |
 | Oct 19 | Metric of the fit, linear regression | [[Slide](/lectures/lec06.pdf)] |  |  |
 | Oct 26 | Metric of the fit, linear regression | [[Slide](/lectures/lec07.pdf)] |  |  |
