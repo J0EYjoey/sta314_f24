@@ -4,26 +4,26 @@ title: "STA314: Statistical Methods for Machine Learning I"
 ---
 
 ## Overview
+---
 
 Machine learning (ML) is a set of techniques that allow computers to learn from data and experience, rather than requiring humans to specify the desired behaviour by hand. ML has become increasingly central both in statistics as an academic discipline, and in the data science industry. This course provides a broad introduction to commonly used ML methods, as well as the key statistical concepts underlying ML. It serves as a foundation for more advanced courses, such as STA414 (Statistical Methods for Machine Learning II).
 
 We will cover statistical methods for supervised and unsupervised learning from data: training error, test error and cross-validation; classification, regression, and logistic regression; variable selection; penalized regression; principal components analysis; stochastic gradient descent; decision trees and random forests; k-means clustering and nearest neighbour methods. Computational tutorials will support the efficient application of these methods.
 
----
-
 <br />
 
 ## Annoucement
+---
 
 - Slide of Lecture 2 is out on Quercus. 
-
----
 
 <br />
 
 ## Course information
 
-### Staff 
+---
+
+### Staff
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
 | --- | --- | --- |  --- | --- |
@@ -69,10 +69,10 @@ This is a preliminary schedule; it may change throughout the term.
 
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
 | --- | ---- | --- | --- | --- |
-| Sep 14 | Logistics, Intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
+| Sep 14 | Logistics + intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
 | Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | None | ISL 2.2, 2.3, 3 |
 | Sep 28 | Model selection, data-splitting, subset selection | [[Slide](/lectures/lec03.pdf)] |  |  |
-| Oct 5 | Model selection via regularization, regularized linear regression | [[Slide](/lectures/lec04.pdf)] |  |  |
+| Oct 5 | Model selection via regularization <br /> regularized linear regression | [[Slide](/lectures/lec04.pdf)] |  |  |
 | Oct 12 | Metric of the fit, linear regression | [[Slide](/lectures/lec05.pdf)] |  |  |
 | Oct 19 | Metric of the fit, linear regression | [[Slide](/lectures/lec06.pdf)] |  |  |
 | Oct 26 | Metric of the fit, linear regression | [[Slide](/lectures/lec07.pdf)] |  |  |
