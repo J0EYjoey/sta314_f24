@@ -4,7 +4,9 @@ title: "STA314: Statistical Methods for Machine Learning I"
 ---
 
 ## Overview
+
 ---
+
 Machine learning (ML) is a set of techniques that allow computers to learn from data and experience, rather than requiring humans to specify the desired behaviour by hand. ML has become increasingly central both in statistics as an academic discipline, and in the data science industry. This course provides a broad introduction to commonly used ML methods, as well as the key statistical concepts underlying ML. It serves as a foundation for more advanced courses, such as STA414 (Statistical Methods for Machine Learning II).
 
 We will cover statistical methods for supervised and unsupervised learning from data: training error, test error and cross-validation; classification, regression, and logistic regression; variable selection; penalized regression; principal components analysis; stochastic gradient descent; decision trees and random forests; k-means clustering and nearest neighbour methods. Computational tutorials will support the efficient application of these methods.
@@ -12,6 +14,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 
 ## Annoucement
+
 ---
 
 - Slide of Lecture 2 is out on Quercus. 
@@ -19,6 +22,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 
 ## Course information
+
 ---
 
 ### Staff 
@@ -60,6 +64,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 
 ## Lectures 
+
 ---
 
 This is a preliminary schedule; it may change throughout the term. 
