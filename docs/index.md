@@ -1,10 +1,9 @@
 ---
 layout: home
+title: "STA314: Statistical Methods for Machine Learning I"
 ---
 
-# STA314: Statistical Methods for Machine Learning I
-
-### Overview
+## Overview
 
 Machine learning (ML) is a set of techniques that allow computers to learn from data and experience, rather than requiring humans to specify the desired behaviour by hand. ML has become increasingly central both in statistics as an academic discipline, and in the data science industry. This course provides a broad introduction to commonly used ML methods, as well as the key statistical concepts underlying ML. It serves as a foundation for more advanced courses, such as STA414 (Statistical Methods for Machine Learning II).
 
@@ -12,7 +11,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ---
 
-### Annoucement
+## Annoucement
 
 - Slide of Lecture 2 is out on Quercus. 
 
@@ -20,15 +19,15 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ---
 
-### Course information
+## Course information
 
-#### Staff 
+### Staff 
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
 | --- | --- | --- |  --- | --- |
 | [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | LEC0101: Mon, 2PM-3PM <br> LEC0201: Mon, 3PM-4PM |  [Zoom link]() | 
 
-#### TAs
+### TAs
 
 | Section | TA | email | OH | OH mode | 
 | --- | --- | --- | --- | --- |
@@ -39,14 +38,14 @@ We will cover statistical methods for supervised and unsupervised learning from 
 |  | Xiaochuan Shi |  [xcshi002@gmail.com](mailto:xcshi002@gmail.com) |  Mon, 1PM-2PM | [Zoom link](https://utoronto.zoom.us/j/82594956892) |
 |  | Daniel Eftekhari | [daniel.eftekhari@mail.utoronto.ca](mailto:daniel.eftekhari@mail.utoronto.ca) | Tue, 11:30AM-12:30PM | [SS623B](https://map.utoronto.ca/?id=1809#!m/494510) |
 
-#### Lectures 
+### Lectures 
 
 | Section	| Time	| Location | 
 | --- | --- | --- |
 | LEC0101	| Wed 11AM-1PM | [MC102](https://map.utoronto.ca/?id=1809#!m/494474) |
 | LEC0201	| Wed 3PM-5PM |  [SS2118](https://map.utoronto.ca/?id=1809#!m/494510) |
 
-#### Tutorials 
+### Tutorials 
 
 | Section | Tutorial Section | Time | Location | TA | 
 |--- | --- | --- | --- | --- |
@@ -59,7 +58,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ---
 
-### Lectures 
+## Lectures 
 
 This is a preliminary schedule; it may change throughout the term. 
 
