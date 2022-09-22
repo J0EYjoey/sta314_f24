@@ -15,7 +15,9 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Annoucement
 
-- Slide of Lecture 2 is out on Quercus. 
+- On Sep 26th, we will have our first tutorial session! 
+- Assignment 1 is out on Quercus. It is due on Oct 5th, 12:59pm. 
+- We have our course email set up, [sta314@utoronto.ca](mailto:sta314@utoronto.ca). You should use this email for your requests and communication with the instructors rather than their personal email addresses. 
 
 ---
 <br />
@@ -74,15 +76,15 @@ This is a preliminary schedule; it may change throughout the term.
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
 | --- | ---- | --- | --- | --- |
 | Sep 14 | Logistics + intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
-| Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | None | ISL 2.2, 2.3, 3 |
-| Sep 28 | Linear regression, data-splitting| [[Slide](/lectures/lec03.pdf)] |  |  |
-| Oct 5 | Best subset selection <br /> regularized linear regression | [[Slide](/lectures/lec04.pdf)] |  |  |
-| Oct 12 | Metric of the fit, linear regression | [[Slide](/lectures/lec05.pdf)] |  |  |
-| Oct 19 | Metric of the fit, linear regression | [[Slide](/lectures/lec06.pdf)] |  |  |
-| Oct 26 | Metric of the fit, linear regression | [[Slide](/lectures/lec07.pdf)] |  |  |
-| Nov 2 | Metric of the fit, linear regression | [[Slide](/lectures/lec08.pdf)] |  |  |
-| Nov 16 | Metric of the fit, linear regression | [[Slide](/lectures/lec09.pdf)] |  |  |
-| Nov 23 | Metric of the fit, linear regression | [[Slide](/lectures/lec10.pdf)] |  |  |
-| Nov 30 | Metric of the fit, linear regression | [[Slide](/lectures/lec11.pdf)] |  |  |
-| Dec 7 | Metric of the fit, linear regression | [[Slide](/lectures/lec12.pdf)] |  |  |
+| Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
+| Sep 28 | Linear regression, data-splitting| [[Slide](/lectures/lec03.pdf)] | [] |  ISL 3.3, 5.1, 5.3 |
+| Oct 5 | Best subset selection, <br /> regularized linear regression | [[Slide](/lectures/lec04.pdf)] | [] | ISL 6.1, 6.2 |
+| Oct 12 | Regularized linear regressionm  <br /> Dimension reduction based regression | [[Slide](/lectures/lec05.pdf)] |  |  |
+| Oct 19 | Classification, logistic regression, LDA | [[Slide](/lectures/lec06.pdf)] |  |  |
+| Oct 26 | QDA, naive Bayes, SVM | [[Slide](/lectures/lec07.pdf)] |  |  |
+| Nov 2 | SVM, KNN | [[Slide](/lectures/lec08.pdf)] |  |  |
+| Nov 16 | Tree-based approaches | [[Slide](/lectures/lec09.pdf)] |  |  |
+| Nov 23 | Bagging, boosting, random forest | [[Slide](/lectures/lec10.pdf)] |  |  |
+| Nov 30 | Unsupervised learning: PCA | [[Slide](/lectures/lec11.pdf)] |  |  |
+| Dec 7 | Unsupervised learning: K-means clustering | [[Slide](/lectures/lec12.pdf)] |  |  |
 
