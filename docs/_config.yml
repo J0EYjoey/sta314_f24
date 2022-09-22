@@ -35,8 +35,8 @@ theme: minima
 plugins:
  - jekyll-feed
  
-header_pages:
- - course.md
+#header_pages:
+# - course.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
