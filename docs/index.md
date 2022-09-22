@@ -50,7 +50,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ### Tutorials 
 
-| Section | Tutorial Section | Time | Location | TA | 
+| Section | Tutorial Session | Time | Location | TA | 
 |--- | --- | --- | --- | --- |
 |LEC0101 | 101 | Mon, 12PM-1PM | [WB119](https://map.utoronto.ca/?id=1809#!m/494460) | Xiaochuan Shi  |
 | | 102 |  |  [WB219](https://map.utoronto.ca/?id=1809#!m/494460) |  Morris Greenberg  | 
