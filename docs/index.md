@@ -80,14 +80,14 @@ This is a preliminary schedule; it may change throughout the term.
 | --- | ---- | --- | --- | --- |
 | Sep 14 | Logistics, intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
 | Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
-| Sep 28 | Linear regression, model selection| [[None](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
-| Oct 5 | Cross-validation, <br /> subset selection under linear models | [[None](/lectures/lec04.pdf)] |  | ISL 5.1, 6.1.1,  6.1.2 |
-| Oct 12 | Regularized linear regression,  <br /> gradient descent | [[None](/lectures/lec05.pdf)] |  | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
-| Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[None](/lectures/lec06.pdf)] |  | ISL 4.1-4.3 <br /> PRML 4.1.2 |
-| Oct 26 | Other discriminant analyses: <br /> QDA, naive Bayes, KNN| [[None](/lectures/lec07.pdf)] |  | ISL 4.4-4.6 |
-| Nov 2 | Support vector machines | [[None](/lectures/lec08.pdf)] |  | ISL 9.1-9.5  |
-| Nov 16 | Tree-based approaches | [[None](/lectures/lec09.pdf)] |  | ISL 8.1 |
-| Nov 23 | Bagging, boosting, random forest | [[None](/lectures/lec10.pdf)] |  | ISL 8.2 |
-| Nov 30 | Unsupervised learning: PCA | [[None](/lectures/lec11.pdf)] |  | ISL 10.1, 10.2 <br /> PRML 12.1 |
-| Dec 7 | Unsupervised learning: K-means clustering | [[None](/lectures/lec12.pdf)] |  | ISL 10.3 <br /> PRML 9.1 |
+| Sep 28 | Linear regression, model selection| [[NA](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
+| Oct 5 | Cross-validation, <br /> subset selection under linear models | [[NA](/lectures/lec04.pdf)] |  | ISL 5.1, 6.1.1,  6.1.2 |
+| Oct 12 | Regularized linear regression,  <br /> gradient descent | [[NA](/lectures/lec05.pdf)] |  | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
+| Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[NA](/lectures/lec06.pdf)] |  | ISL 4.1-4.3 <br /> PRML 4.1.2 |
+| Oct 26 | Other discriminant analyses: <br /> QDA, naive Bayes, KNN| [[NA](/lectures/lec07.pdf)] |  | ISL 4.4-4.6 |
+| Nov 2 | Support vector machines | [[NA](/lectures/lec08.pdf)] |  | ISL 9.1-9.5  |
+| Nov 16 | Tree-based approaches | [[NA](/lectures/lec09.pdf)] |  | ISL 8.1 |
+| Nov 23 | Bagging, boosting, random forest | [[NA](/lectures/lec10.pdf)] |  | ISL 8.2 |
+| Nov 30 | Unsupervised learning: PCA | [[NA](/lectures/lec11.pdf)] |  | ISL 10.1, 10.2 <br /> PRML 12.1 |
+| Dec 7 | Unsupervised learning: K-means clustering | [[NA](/lectures/lec12.pdf)] |  | ISL 10.3 <br /> PRML 9.1 |
 
