@@ -75,14 +75,14 @@ This is a preliminary schedule; it may change throughout the term.
 
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
 | --- | ---- | --- | --- | --- |
-| Sep 14 | Logistics + intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
+| Sep 14 | Logistics, intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
 | Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
-| Sep 28 | Linear regression, data-splitting| [[Slide](/lectures/lec03.pdf)] | [] |  ISL 3.3, 5.1, 5.3 |
-| Oct 5 | Best subset selection, <br /> regularized linear regression | [[Slide](/lectures/lec04.pdf)] | [] | ISL 6.1, 6.2 |
-| Oct 12 | Regularized linear regressionm  <br /> Dimension reduction based regression | [[Slide](/lectures/lec05.pdf)] |  |  |
-| Oct 19 | Classification, logistic regression, LDA | [[Slide](/lectures/lec06.pdf)] |  |  |
-| Oct 26 | QDA, naive Bayes, SVM | [[Slide](/lectures/lec07.pdf)] |  |  |
-| Nov 2 | SVM, KNN | [[Slide](/lectures/lec08.pdf)] |  |  |
+| Sep 28 | Linear regression, model selection| [[Slide](/lectures/lec03.pdf)] | [] |  ISL 3.3, 6.1.3 |
+| Oct 5 | Cross-validation, <br /> subset selection under linear models | [[Slide](/lectures/lec04.pdf)] | [] | ISL 5.1, 6.1.1,  6.1.2 |
+| Oct 12 | Regularized linear regression,  <br /> gradient descent | [[Slide](/lectures/lec05.pdf)] |  | ISL 6.2, 6.4 |
+| Oct 19 | Classification, logistic regression, <br /> Discriminant analysis, LDA | [[Slide](/lectures/lec06.pdf)] |  | ISL 4.1-4.3, |
+| Oct 26 | Discriminant analysis <br /> QDA, naive Bayes, KNN| [[Slide](/lectures/lec07.pdf)] |  | ISL 4.4-4.6 |
+| Nov 2 | SVM | [[Slide](/lectures/lec08.pdf)] |  | 9.1-9.5  |
 | Nov 16 | Tree-based approaches | [[Slide](/lectures/lec09.pdf)] |  |  |
 | Nov 23 | Bagging, boosting, random forest | [[Slide](/lectures/lec10.pdf)] |  |  |
 | Nov 30 | Unsupervised learning: PCA | [[Slide](/lectures/lec11.pdf)] |  |  |
