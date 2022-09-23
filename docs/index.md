@@ -86,7 +86,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[NA](/lectures/lec06.pdf)] |  | ISL 4.1-4.3 <br /> PRML 4.1.2 |
 | Oct 26 | Other discriminant analyses: <br /> QDA, naive Bayes, KNN| [[NA](/lectures/lec07.pdf)] |  | ISL 4.4-4.6 |
 | Nov 2 | Support vector machines | [[NA](/lectures/lec08.pdf)] |  | ISL 9.1-9.5  |
-| Nov 16 | Tree-based approaches | [[NA](/lectures/lec09.pdf)] |  | ISL 8.1 |
+| Nov 16 | Tree-based approaches: decision tree | [[NA](/lectures/lec09.pdf)] |  | ISL 8.1 |
 | Nov 23 | Bagging, boosting, random forest | [[NA](/lectures/lec10.pdf)] |  | ISL 8.2 |
 | Nov 30 | Unsupervised learning: PCA | [[NA](/lectures/lec11.pdf)] |  | ISL 10.1, 10.2 <br /> PRML 12.1 |
 | Dec 7 | Unsupervised learning: K-means clustering | [[NA](/lectures/lec12.pdf)] |  | ISL 10.3 <br /> PRML 9.1 |
