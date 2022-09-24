@@ -15,6 +15,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Annoucement
 
+- LEC0201: Tutorial session 101 is temporarily moved to [online](https://utoronto.zoom.us/j/84788066033) (only for Sep 26th).
 - On Sep 26th, we will have our first tutorial session! 
 - Assignment 1 is out on Quercus. It is due on Oct 5th, 12:59pm. 
 - We have our course email set up, [sta314@utoronto.ca](mailto:sta314@utoronto.ca). You should use this email for your requests and communication with the instructors rather than their personal email addresses. 
