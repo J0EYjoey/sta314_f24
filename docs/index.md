@@ -24,6 +24,14 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Course information
 
+### Course email and textbooks
+
+- Course email: [sta314@utoronto.ca](mailto:sta314@utoronto.ca) (for requests and communication with instructors)
+- Textbook: [An Introduction to Statistical Learning (ISL)](https://www.statlearning.com) 
+- References:
+  - Elements of Statistical Learning (ESL).
+  - Pattern Recognition and Machine Learning (PRML).
+
 ### Staff
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
@@ -60,17 +68,27 @@ We will cover statistical methods for supervised and unsupervised learning from 
 | | 203 | | [WB219](https://map.utoronto.ca/?id=1809#!m/494460) | Daniel Eftekhari |
 
 
-### Course email and textbooks
+---
 
-- Course email: [sta314@utoronto.ca](mailto:sta314@utoronto.ca) (for requests and communication with instructors)
-- Textbook: [An Introduction to Statistical Learning (ISL)](https://www.statlearning.com) 
-- References:
-  - Elements of Statistical Learning (ESL).
-  - Pattern Recognition and Machine Learning (PRML).
+<br />
+
+
+## Homeworks & exams
+
+|  | Out | Due |  Files | Credit | 
+|---|---|---|---|---|
+| Homework 1 | Sep 21, 11:59pm | Oct 5, 11:59pm | [[hw1](/hws/hw1.pdf)] | 15% |
+| Homework 2 | Oct 5, 11:59 PM | Oct 19, 11:59 PM | [[NA](/hws/hw2.pdf)] | 15% |
+| Midterm exam | Oct 26 | LEC 0101 | 11PM-1AM, [[MC102](https://map.utoronto.ca/?id=1809#!m/494474)] | 20% |
+|  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  |
+| Homework 3 | Nov 2, 11:59 PM | Nov 16, 11:59 PM | [[NA](/hws/hw3.pdf)] | 15% |
+| Homework 4 | Nov 16, 11:59 PM | Nov 30, 11:59 PM | [[NA](/hws/hw4.pdf)] | 15% |
+| Final exam | TBA | TBA | TBA | 20% |
 
 ---
 
 <br />
+
 
 ## Lectures 
 
@@ -80,7 +98,7 @@ This is a preliminary schedule; it may change throughout the term.
 | --- | ---- | --- | --- | --- |
 | Sep 14 | Logistics, intro to statistical learning | [[Slide](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
 | Sep 21 | Metric of the fit, linear regression | [[Slide](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
-| Sep 28 | Linear regression, model selection| [[NA](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
+| Sep 28 | Linear regression, model selection| [[Slides](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
 | Oct 5 | Cross-validation, <br /> subset selection under linear models | [[NA](/lectures/lec04.pdf)] |  | ISL 5.1, 6.1.1,  6.1.2 |
 | Oct 12 | Regularized linear regression,  <br /> gradient descent | [[NA](/lectures/lec05.pdf)] |  | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
 | Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[NA](/lectures/lec06.pdf)] |  | ISL 4.1-4.3 <br /> PRML 4.1.2 |
