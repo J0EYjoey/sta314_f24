@@ -77,7 +77,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 |  | Out | Due |  Files | Credit | 
 |---|---|---|---|---|
-| Homework 1 | Sep 21, 11:59pm | Oct 5, 11:59pm | [[hw1](/hws/hw1.pdf)] | 15% |
+| Homework 1 | Sep 21, 11:59pm | Oct 5, 11:59pm | [[hw1.pdf](/hws/hw1.pdf)] | 15% |
 | Homework 2 | Oct 5, 11:59 PM | Oct 19, 11:59 PM | [[NA](/hws/hw2.pdf)] | 15% |
 | Midterm exam | Oct 26 | LEC 0101 | 11PM-1AM, [[MC102](https://map.utoronto.ca/?id=1809#!m/494474)] | 20% |
 |  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  |
