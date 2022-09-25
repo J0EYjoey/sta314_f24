@@ -97,9 +97,9 @@ This is a preliminary schedule; it may change throughout the term.
 
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
 | --- | ---- | --- | --- | --- |
-| Sep 14 | Logistics, intro to statistical learning | [[Slides](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
-| Sep 21 | Metric of the fit, linear regression | [[Slides](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
-| Sep 28 | Linear regression, model selection| [[Slides](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
+| Sep 14 | Logistics, intro to statistical learning | [[Lec01.pdf](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
+| Sep 21 | Metric of the fit, linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
+| Sep 28 | Linear regression, model selection| [[Lec03.pdf](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
 | Oct 5 | Cross-validation, <br /> subset selection under linear models | [[NA](/lectures/.pdf)] |  | ISL 5.1, 6.1.1,  6.1.2 |
 | Oct 12 | Regularized linear regression,  <br /> gradient descent | [[NA](/lectures/.pdf)] |  | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
 | Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[NA](/lectures/.pdf)] |  | ISL 4.1-4.3 <br /> PRML 4.1.2 |
