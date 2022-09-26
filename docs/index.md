@@ -102,8 +102,8 @@ This is a preliminary schedule; it may change throughout the term.
 | Sep 28 | Linear regression, model selection| [[Lec03.pdf](/lectures/lec03.pdf)] |  |  ISL 3.3, 6.1.3 |
 | Oct 5 | Cross-validation, <br /> subset selection under linear models | [[NA](/lectures/.pdf)] |  | ISL 5.1, 6.1.1,  6.1.2 |
 | Oct 12 | Regularized linear regression,  <br /> gradient descent | [[NA](/lectures/.pdf)] |  | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
-| Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[NA](/lectures/.pdf)] |  | ISL 4.1-4.3 <br /> PRML 4.1.2 |
-| Oct 26 | Other discriminant analyses: <br /> QDA, naive Bayes, KNN| [[NA](/lectures/.pdf)] |  | ISL 4.4-4.6 |
+| Oct 19 | Intro to classification, logistic regression, <br /> linear discriminant analysis (LDA) | [[NA](/lectures/.pdf)] |  | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 |
+| Oct 26 | Discriminant analysis: <br /> LDA, QDA, naive Bayes| [[NA](/lectures/.pdf)] |  | ISL 4.4-4.6 <br /> ESL 4.3 |
 | Nov 2 | Support vector machines | [[NA](/lectures/.pdf)] |  | ISL 9.1-9.5  |
 | Nov 16 | Tree-based approaches: decision tree | [[NA](/lectures/.pdf)] |  | ISL 8.1 |
 | Nov 23 | Bagging, boosting, random forest | [[NA](/lectures/.pdf)] |  | ISL 8.2 |
