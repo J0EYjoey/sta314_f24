@@ -46,8 +46,8 @@ We will cover statistical methods for supervised and unsupervised learning from 
 | LECT0101 | Junhao Zhu | [jh.zhu@mail.utoronto.ca](mailto:jh.zhu@mail.utoronto.ca) |  Fri, 9AM-10AM | [Zoom link](https://utoronto.zoom.us/j/81354688632) |
 |  | Morris Greenberg |  [morris.greenberg@mail.utoronto.ca](mailto:morris.greenberg@mail.utoronto.ca) |  Thu, 9AM-10AM | [SS623B](https://map.utoronto.ca/?id=1809#!m/494510) |
 |  | Tong Li| [to.li@mail.utoronto.ca](mailto:to.li@mail.utoronto.ca) |  Mon, 9AM-10AM | [Zoom link](https://meet.google.com/tcr-opra-geu) | 
-| LECT0201 | Fred Haochen Song | [mrsonghaochen@163.com](mailto:mrsonghaochen@163.com) |  Mon 12PM-1PM | [Zoom link](https://utoronto.zoom.us/j/85988940648) | 
-|  | Xiaochuan Shi |  [xcshi002@gmail.com](mailto:xcshi002@gmail.com) |  Mon, 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82594956892) |
+| LECT0201 | Fred Haochen Song | [fred.song@mail.utoronto.ca](mailto:fred.song@mail.utoronto.ca) |  Mon 12PM-1PM | [Zoom link](https://utoronto.zoom.us/j/85988940648) | 
+|  | Xiaochuan Shi |  [xiaochuan.shi@mail.utoronto.ca](mailto:xiaochuan.shi@mail.utoronto.ca) |  Mon, 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82594956892) |
 |  | Daniel Eftekhari | [daniel.eftekhari@mail.utoronto.ca](mailto:daniel.eftekhari@mail.utoronto.ca) | Tue, 11:30AM-12:30PM | [SS623B](https://map.utoronto.ca/?id=1809#!m/494510) |
 
 ### Lectures 
