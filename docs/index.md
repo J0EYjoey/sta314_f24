@@ -44,7 +44,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 | Section | TA | email | OH | OH mode | 
 | --- | --- | --- | --- | --- |
 | LECT0101 | Junhao Zhu | [jh.zhu@mail.utoronto.ca](mailto:jh.zhu@mail.utoronto.ca) |  Fri, 9AM-10AM | [Zoom link](https://utoronto.zoom.us/j/81354688632) |
-|  | Morris Greenberg |  [morris.j.greenberg@gmail.com](mailto:morris.j.greenberg@gmail.com) |  Thu, 9AM-10AM | [SS623B](https://map.utoronto.ca/?id=1809#!m/494510) |
+|  | Morris Greenberg |  [morris.greenberg@mail.utoronto.ca](mailto:morris.greenberg@mail.utoronto.ca) |  Thu, 9AM-10AM | [SS623B](https://map.utoronto.ca/?id=1809#!m/494510) |
 |  | Tong Li| [to.li@mail.utoronto.ca](mailto:to.li@mail.utoronto.ca) |  Mon, 9AM-10AM | [Zoom link](https://meet.google.com/tcr-opra-geu) | 
 | LECT0201 | Fred Haochen Song | [mrsonghaochen@163.com](mailto:mrsonghaochen@163.com) |  Mon 12PM-1PM | [Zoom link](https://utoronto.zoom.us/j/85988940648) | 
 |  | Xiaochuan Shi |  [xcshi002@gmail.com](mailto:xcshi002@gmail.com) |  Mon, 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82594956892) |
