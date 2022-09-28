@@ -37,7 +37,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
 | --- | --- | --- |  --- | --- |
-| [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | LEC0101: Mon, 2PM-3PM <br> LEC0201: Mon, 3PM-4PM |  [Zoom link]() | 
+| [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | LEC0101: Mon, 2PM-3PM <br> LEC0201: Mon, 3PM-4PM |  [Zoom link](https://utoronto.zoom.us/j/82134551693) | 
 
 ### TAs
 
