@@ -15,6 +15,8 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Annoucement
 
+- We will have tutorial sessions on Oct 17th. 
+- Assignment 2 is out on Quercus. It is due on Oct 19th, 11:59pm. 
 - On Oct 3rd, we will have our second tutorial session! 
 - LEC0201: Tutorial session 201 is temporarily moved to [online](https://utoronto.zoom.us/j/84788066033) (only for Sep 26th).
 - On Sep 26th, we will have our first tutorial session! 
@@ -80,7 +82,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 |  | Out | Due |  Files | Credit | 
 |---|---|---|---|---|
 | Homework 1 | Sep 21, 11:59pm | Oct 5, 11:59pm | [[hw1.pdf](/hws/hw1.pdf)] | 15% |
-| Homework 2 | Oct 5, 11:59 PM | Oct 19, 11:59 PM | [[NA](/hws/hw2.pdf)] | 15% |
+| Homework 2 | Oct 5, 11:59 PM | Oct 19, 11:59 PM | [[hw2.pdf](/hws/hw2.pdf)] | 15% |
 | Midterm exam | Oct 26 | LEC 0101 | 11PM-1AM, [[MC102](https://map.utoronto.ca/?id=1809#!m/494474)] | 20% |
 |  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  |
 | Homework 3 | Nov 2, 11:59 PM | Nov 16, 11:59 PM | [[NA](/hws/hw3.pdf)] | 15% |
