@@ -104,8 +104,8 @@ This is a preliminary schedule; it may change throughout the term.
 | Sep 21 | Metric of the fit, linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
 | Sep 28 | Linear regression, model selection| [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 3, [[R code](/tutorials/tut02.R)] |  [[Linear algebra review](/tutorials/tut02.pdf)] <br /> ISL 3.3, 6.1.3 |
 | Oct 5 | Cross-validation, <br /> subset selection under linear models | [[Lec04.pdf](/lectures/lec04.pdf)] | Oct 10, thanksgiving | ISL 5.1, 6.1.1,  6.1.2 |
-| Oct 12 | Regularized linear regression,  <br /> gradient descent | [[Lec05.pdf](/lectures/lec05.pdf)] |  | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
-| Oct 19 | Intro to classification, logistic regression, <br /> stochastic gradient descent | [[NA](/lectures/.pdf)] |  | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 |
+| Oct 12 | Regularized linear regression,  <br /> gradient descent | [[Lec05.pdf](/lectures/lec05.pdf)] | Oct, 17 [[Notes](/tutorials/tut03.R)] | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
+| Oct 19 | Intro to classification, logistic regression, <br /> stochastic gradient descent | [[Lec06.pdf](/lectures/lec06.pdf)] |  | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 |
 | Oct 26 | Discriminant analysis: <br /> LDA, QDA, naive Bayes| [[NA](/lectures/.pdf)] |  | ISL 4.4-4.6 <br /> ESL 4.3 |
 | Nov 2 | Support vector machines, KNN | [[NA](/lectures/.pdf)] |  | ISL 9.1-9.5  |
 | Nov 16 | Tree-based approaches: decision tree | [[NA](/lectures/.pdf)] |  | ISL 8.1 |
