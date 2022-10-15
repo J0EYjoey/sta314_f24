@@ -79,15 +79,15 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Homeworks & exams
 
-|  | Out | Due |  Files | Credit | 
-|---|---|---|---|---|
-| Homework 1 | Sep 21, 11:59pm | Oct 5, 11:59pm | [[hw1.pdf](/hws/hw1.pdf)] | 15% |
-| Homework 2 | Oct 5, 11:59 PM | Oct 19, 11:59 PM | [[hw2.pdf](/hws/hw2.pdf)] | 15% |
-| Midterm exam | Oct 26 | LEC 0101 | 11PM-1AM, [[MC102](https://map.utoronto.ca/?id=1809#!m/494474)] | 20% |
-|  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  |
-| Homework 3 | Nov 2, 11:59 PM | Nov 16, 11:59 PM | [[NA](/hws/hw3.pdf)] | 15% |
-| Homework 4 | Nov 16, 11:59 PM | Nov 30, 11:59 PM | [[NA](/hws/hw4.pdf)] | 15% |
-| Final exam | TBA | TBA | TBA | 20% |
+|  | Out | Due |  Files | Credit | Content | 
+|---|---|---|---|---|---|
+| Homework 1 | Sep 21, 11:59pm | Oct 5, 11:59pm | [[hw1.pdf](/hws/hw1.pdf)] | 15% | Lec01-Lec03 |
+| Homework 2 | Oct 5, 11:59 PM | Oct 19, 11:59 PM | [[hw2.pdf](/hws/hw2.pdf)] | 15% | Lec04-Lec05 |
+| Midterm exam | Oct 26 | LEC 0101 | 11PM-1AM, [[MC102](https://map.utoronto.ca/?id=1809#!m/494474)] | 20% | Lec01-Lec06 |
+|  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  | | 
+| Homework 3 | Nov 2, 11:59 PM | Nov 16, 11:59 PM | [[NA](/hws/hw3.pdf)] | 15% | Lec06-Lec08 |
+| Homework 4 | Nov 16, 11:59 PM | Nov 30, 11:59 PM | [[NA](/hws/hw4.pdf)] | 15% | Lec08-Lec10 |
+| Final exam | TBA | TBA | TBA | 20% | Lec01-Lec12 |
 
 ---
 
@@ -100,17 +100,16 @@ This is a preliminary schedule; it may change throughout the term.
 
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
 | --- | ---- | --- | --- | --- |
-| Sep 14 | Logistics, intro to statistical learning | [[Lec01.pdf](/lectures/lec01.pdf)] | None |  ISL 1, 2.1  |
+| Sep 14 | Logistics, intro to statistical learning | [[Lec01.pdf](/lectures/lec01.pdf)] | No tutorial |  ISL 1, 2.1  |
 | Sep 21 | Metric of the fit, linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 26, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
 | Sep 28 | Linear regression, model selection| [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 3, [[R code](/tutorials/tut02.R)] |  [[Linear algebra review](/tutorials/tut02.pdf)] <br /> ISL 3.3, 6.1.3 |
 | Oct 5 | Cross-validation, <br /> subset selection under linear models | [[Lec04.pdf](/lectures/lec04.pdf)] | Oct 10, Thanksgiving | ISL 5.1, 6.1.1,  6.1.2 |
 | Oct 12 | Regularized linear regression,  <br /> gradient descent | [[Lec05.pdf](/lectures/lec05.pdf)] | Oct 17, [[Notes](/tutorials/tut03.R)] | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 |
-| Oct 19 | Intro to classification, logistic regression, <br /> stochastic gradient descent | [[Lec06.pdf](/lectures/lec06.pdf)] |  | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 |
-| Oct 24 | Discriminant analysis: <br /> LDA, QDA, naive Bayes| [[NA](/lectures/.pdf)] |  | ISL 4.4-4.6 <br /> ESL 4.3 |
-| Oct 26 | Midterm (Lec01 - Lec06) | In class, 90mins |  |  |
-| Nov 2 | Support vector machines, KNN | [[NA](/lectures/.pdf)] |  | ISL 9.1-9.5  |
-| Nov 16 | Tree-based approaches: decision tree | [[NA](/lectures/.pdf)] |  | ISL 8.1 |
-| Nov 23 | Bagging, boosting, random forest | [[NA](/lectures/.pdf)] |  | ISL 8.2 |
-| Nov 30 | Unsupervised learning: PCA | [[NA](/lectures/.pdf)] |  | ISL 10.1, 10.2 <br /> PRML 12.1 |
-| Dec 7 | Unsupervised learning: K-means clustering | [[NA](/lectures/.pdf)] |  | ISL 10.3 <br /> PRML 9.1 |
+| Oct 19 | Intro to classification, logistic regression, <br /> stochastic gradient descent | [[Lec06.pdf](/lectures/lec06.pdf)] | No tutorial | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 |
+| Oct 24 | Discriminant analysis: <br /> LDA, QDA, naive Bayes| [[Lec07.pdf](/lectures/.pdf)] | Oct 31 | ISL 4.4-4.6 <br /> ESL 4.3 |
+| Nov 2 | Support vector machines, KNN | [[Lec08.pdf](/lectures/.pdf)] | Nov 14 | ISL 9.1-9.5  |
+| Nov 16 | Tree-based approaches: decision tree | [[Lec09.pdf](/lectures/.pdf)] | Nov 21 | ISL 8.1 |
+| Nov 23 | Bagging, boosting, random forest | [[Lec10.pdf](/lectures/.pdf)] | No tutorial | ISL 8.2 |
+| Nov 30 | Unsupervised learning: PCA | [[Lec11.pdf](/lectures/.pdf)] | No tutorial | ISL 10.1, 10.2 <br /> PRML 12.1 |
+| Dec 7 | Unsupervised learning: K-means clustering | [[Lec12.pdf](/lectures/.pdf)] | Class ends | ISL 10.3 <br /> PRML 9.1 |
 
