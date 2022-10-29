@@ -15,6 +15,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Annoucement
 
+- We will have tutorial sessions on Oct 31st. 
 - We will have tutorial sessions on Oct 17th. 
 - Assignment 2 is out on Quercus. It is due on Oct 19th, 11:59pm. 
 - On Oct 3rd, we will have our second tutorial session! 
