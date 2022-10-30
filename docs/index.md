@@ -111,7 +111,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Oct 24 | Discriminant analysis: <br /> LDA, QDA, naive Bayes| [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 31, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)]  | ISL 4.4-4.6 <br /> ESL 4.3 |
 | Nov 2 | Support vector machines | [[Lec08.pdf](/lectures/.pdf)] | Nov 14 | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> ConvOpt 2.5, 5.1, 5.2 |
 | Nov 16 | Moving beyond linearity, k nearest neighbour | [[Lec09.pdf](/lectures/.pdf)] | Nov 21 | ISL 7 |
-| Nov 23 | Bootstrap, decision tree | [[Lec010.pdf](/lectures/.pdf)] | No tutorial | ISL 5.2, 5.3.4, 8.1 <br /> ESL 7.11 |
-| Nov 30 | Bagging, boosting, random forest | [[Lec11.pdf](/lectures/.pdf)] | No tutorial | ISL 8.2  |
+| Nov 23 | Tree based approaches: decision tree, bagging, boosting, random forest | [[Lec10.pdf](/lectures/.pdf)] | No tutorial | ISL 8.1, 8.2 |
+| Nov 30 |  Bootstrap | [[Lec11.pdf](/lectures/.pdf)] | No tutorial | ISL 5.2, 5.3.4 <br /> ESL 7.11  |
 | Dec 7 | Unsupervised learning: clustering and PCA | [[Lec12.pdf](/lectures/.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
 
