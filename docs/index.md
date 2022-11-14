@@ -90,7 +90,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 |  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  | | 
 | Homework 3 | Oct 30, 11:59 PM | Nov 16, 11:59 PM | [[hw3.pdf](/hws/hw3.pdf)] | 15% | Lec06-Lec08 |
 | Homework 4 | Nov 16, 11:59 PM | Nov 30, 11:59 PM | [[NA](/hws/hw4.pdf)] | 15% | Lec06-Lec10 |
-| Final exam | TBA | TBA | TBA | 20% | Lec01-Lec12 |
+| Final exam | Dec 12 | All lectures | 9AM-11AM, [[Location](https://www.artsci.utoronto.ca/current/faculty-registrar/exams-assessments/exam-assessment-schedule#S)] | 20% | Lec01-Lec12 |
 
 ---
 
@@ -111,7 +111,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Oct 19 | Intro to classification, logistic regression, <br /> stochastic gradient descent | [[Lec06.pdf](/lectures/lec06.pdf)] | No tutorial | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
 | Oct 24 | Discriminant analysis: <br /> LDA, QDA, naive Bayes| [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 31, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)]  | ISL 4.4-4.6 <br /> ESL 4.3 |
 | Nov 2 | Support vector machines | [[Lec08.pdf](/lectures/lec08.pdf)] | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> ConvOpt 2.5, 5.1, 5.2 |
-| Nov 16 | Moving beyond linearity, k nearest neighbour | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21 | ISL 7 <br /> ESL 5.1, 5.2 |
+| Nov 16 | Moving beyond linearity, k nearest neighbour | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21, [[R code](/tutorials/tut05.R)] | ISL 7 <br /> ESL 5.1, 5.2 |
 | Nov 23 | Tree based approaches: decision tree | [[Lec10.pdf](/lectures/.pdf)] | No tutorial | ISL 8.1  <br /> ESL 9.2  |
 | Nov 30 | Bagging, boosting and random forest; <br /> Bootstrap | [[Lec11.pdf](/lectures/.pdf)] | Dec 5 | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15  |
 | Dec 7 | Unsupervised learning: clustering and PCA | [[Lec12.pdf](/lectures/.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
