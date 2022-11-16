@@ -114,5 +114,5 @@ This is a preliminary schedule; it may change throughout the term.
 | Nov 16 | Moving beyond linearity, k nearest neighbour | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21, [[R code](/tutorials/tut05.R)] | ISL 7 <br /> ESL 5.1, 5.2 |
 | Nov 23 | Tree based approaches: decision tree | [[Lec10.pdf](/lectures/lec10.pdf)] | No tutorial | ISL 8.1  <br /> ESL 9.2  |
 | Nov 30 | Bagging, boosting and random forest; <br /> Bootstrap | [[Lec11.pdf](/lectures/lec11.pdf)] | Dec 5 | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15  |
-| Dec 7 | Unsupervised learning: clustering and PCA | [[Lec12.pdf](/lectures/.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
+| Dec 7 | Unsupervised learning: K-means clustering and PCA | [[Lec12.pdf](/lectures/.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
 
