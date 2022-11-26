@@ -89,7 +89,7 @@ We will cover statistical methods for supervised and unsupervised learning from 
 | Midterm exam | Oct 26 | LEC 0101 | 11PM-1AM, [[MC102](https://map.utoronto.ca/?id=1809#!m/494474)] | 20% | Lec01-Lec06 |
 |  |  | LEC 0201 | 3PM-5PM, [[Exam Centre:EX200](https://map.utoronto.ca/?id=1809#!m/494616?ce/48593?s/EX%20200?ct/45469,0,48654,48655,48656,48657,48658)] |  | | 
 | Homework 3 | Oct 30, 11:59 PM | Nov 16, 11:59 PM | [[hw3.pdf](/hws/hw3.pdf)] | 15% | Lec06-Lec08 |
-| Homework 4 | Nov 16, 11:59 PM | Nov 30, 11:59 PM | [[NA](/hws/hw4.pdf)] | 15% | Lec06-Lec10 |
+| Homework 4 | Nov 16, 11:59 PM | Nov 30, 11:59 PM | [[hw4.pdf](/hws/hw4.pdf)] | 15% | Lec06-Lec10 |
 | Final exam | Dec 12 | All lectures | 9AM-11AM, [[Location](https://www.artsci.utoronto.ca/current/faculty-registrar/exams-assessments/exam-assessment-schedule#S)] | 20% | Lec01-Lec12 |
 
 ---
@@ -114,5 +114,5 @@ This is a preliminary schedule; it may change throughout the term.
 | Nov 16 | Moving beyond linearity, k nearest neighbour | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21, [[R code](/tutorials/tut05.R)] | ISL 7 <br /> ESL 5.1, 5.2 |
 | Nov 23 | Tree based approaches: decision tree | [[Lec10.pdf](/lectures/lec10.pdf)] | No tutorial | ISL 8.1  <br /> ESL 9.2  |
 | Nov 30 | Bagging, boosting and random forest; <br /> Bootstrap | [[Lec11.pdf](/lectures/lec11.pdf)] | Dec 5 | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15  |
-| Dec 7 | Unsupervised learning: K-means clustering and PCA | [[Lec12.pdf](/lectures/.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
+| Dec 7 | Unsupervised learning: K-means clustering and PCA | [[Lec12.pdf](/lectures/lec12.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
 
