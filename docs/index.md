@@ -15,16 +15,6 @@ We will cover statistical methods for supervised and unsupervised learning from 
 
 ## Annoucement
 
-- On Dec 5th, we will have our last tutorial session. 
-- Assignment 4 is due on Dec 2nd, 11:59pm. 
-- Assignment 3 is out on Quercus. It is due on Nov 16th, 11:59pm. 
-- We will have tutorial sessions on Oct 31st. 
-- We will have tutorial sessions on Oct 17th. 
-- Assignment 2 is out on Quercus. It is due on Oct 19th, 11:59pm. 
-- On Oct 3rd, we will have our second tutorial session! 
-- LEC0201: Tutorial session 201 is temporarily moved to [online](https://utoronto.zoom.us/j/84788066033) (only for Sep 26th).
-- On Sep 26th, we will have our first tutorial session! 
-- Assignment 1 is out on Quercus. It is due on Oct 5th, 12:59pm. 
 - We have our course email set up, [sta314@utoronto.ca](mailto:sta314@utoronto.ca). You should use this email for your requests and communication with the instructors rather than their personal email addresses. 
 
 ---
@@ -39,7 +29,8 @@ We will cover statistical methods for supervised and unsupervised learning from 
 - References:
   - Elements of Statistical Learning (ESL).
   - Pattern Recognition and Machine Learning (PRML).
-  - Convex Optimization by Boyd and Vandenberghe (ConvOpt). 
+  - Convex Optimization by Boyd and Vandenberghe (ConvOpt).
+- Piazza: [TBD]
 
 ### Staff
 
