@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "STA314: Statistical Methods for Machine Learning I-Fall"
+title: "STA314: Statistical Methods for Machine Learning I"
 ---
 
 ## Overview
