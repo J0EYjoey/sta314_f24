@@ -42,12 +42,12 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Section | TA  | OH | OH mode | 
 | --- | --- | --- | --- |
-| LECT0101 | Junhao Zhu |  TBA | TBA |
-|  | Liam Welsh |   TBA | TBA |
-|  | Tong Li|  TBA | TBA | 
-| LECT0201 | Haochen Song |  TBA | TBA | 
-|  | Ziyi Liu |   TBA|  TBA |
-|  | Weizheng Zhang | TBA | TBA |
+| LECT0101 | Liam Welsh |  TBA | TBA |
+|  | Junhao Zhu |   TBA | TBA |
+|  | Weizheng Zhang |  TBA | TBA | 
+| LECT0201 | Ziyi Liu |  TBA | TBA | 
+|  | Haochen Song |   TBA|  TBA |
+|  | Tong Li | TBA | TBA |
 
 ### Lectures 
 
