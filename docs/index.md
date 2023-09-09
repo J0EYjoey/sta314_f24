@@ -94,7 +94,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 This is a preliminary schedule; it may change throughout the term. 
 
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
-| --- | ---- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | Sep 11 | Logistics and introduction | [[Lec01.pdf](/lectures/lec01.pdf)] | No tutorial |  ISL 1, 2.1  |
 | Sep 13 | Metric of the fit, linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 18, [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] | ISL 2.2, 2.3, 3.1, 3.2 |
 <!--  | Sep 20 | Model selection| [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 2, [[R code](/tutorials/tut02.R)] |  [[Linear algebra review](/tutorials/tut02.pdf)] <br /> ISL 3.3, 6.1.3 |
