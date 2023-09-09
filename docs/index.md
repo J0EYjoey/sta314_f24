@@ -77,12 +77,12 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 |  | Out | Due |  Files | Credit | Content | 
 |---|---|---|---|---|---|
-| Homework 1 | Sep 21, 12 AM | Oct 4, 11:59 PM | <!-- [[hw1.pdf](/hws/hw1.pdf)]--> | 10% | Lec01-Lec03 |
-| Homework 2 | Oct 5, 12 AM | Oct 18, 11:59 PM | <!-- [[hw2.pdf](/hws/hw2.pdf)]--> | 10% | Lec04-Lec05 |
+| Homework 1 | Sep 21, 12 AM | Oct 4, 11:59 PM | <!-- [[hw1.pdf](/hws/hw1.pdf)]--> | 10% | Lec01-03 |
+| Homework 2 | Oct 5, 12 AM | Oct 18, 11:59 PM | <!-- [[hw2.pdf](/hws/hw2.pdf)]--> | 10% | Lec04-05 |
 | Midterm exam | Oct 25 |  |   | 30% | Lec01-Lec06 | 
-| Homework 3 | Nov 2, 12 AM | Nov 15, 11:59 PM | <!-- [[hw3.pdf](/hws/hw3.pdf)] --> | 10% | Lec06-Lec08 |
-| Homework 4 | Nov 16, 12 AM | Nov 29, 11:59 PM | <!-- [[hw4.pdf](/hws/hw4.pdf)] --> | 10% | Lec06-Lec10 |
-| Final exam | TBA |  |  | 30% | Lec01-Lec12 |
+| Homework 3 | Nov 2, 12 AM | Nov 15, 11:59 PM | <!-- [[hw3.pdf](/hws/hw3.pdf)] --> | 10% | Lec06-08 |
+| Homework 4 | Nov 16, 12 AM | Nov 29, 11:59 PM | <!-- [[hw4.pdf](/hws/hw4.pdf)] --> | 10% | Lec06-10 |
+| Final exam | TBA |  |  | 30% | Lec01-12 |
 
 ---
 
