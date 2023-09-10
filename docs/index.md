@@ -37,18 +37,18 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
 | --- | --- | --- |  --- | --- |
-| [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | LEC0101: Mon, 2PM-3PM <br> LEC0201: Mon, 3PM-4PM |  [Zoom link](https://utoronto.zoom.us/j/82134551693) | 
+| [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | LEC0101: Mon, 2PM-3PM <br> LEC0201: Mon, 3PM-4PM |  [Zoom link](https://utoronto.zoom.us/j/89637295142) | 
 
 ### TAs
 
 | Section | TA  | OH | OH mode | 
 | --- | --- | --- | --- |
-| LECT0101 | Liam Welsh |  TBA | TBA |
-|  | Junhao Zhu |   TBA | TBA |
-|  | Weizheng Zhang |  TBA | TBA | 
-| LECT0201 | Ziyi Liu |  TBA | TBA | 
-|  | Haochen Song |   TBA|  TBA |
-|  | Tong Li | TBA | TBA |
+| LECT0101 | Liam Welsh |  Fri 11AM-12PM | [Zoom link](https://utoronto.zoom.us/j/85857947465) |
+|  | Junhao Zhu |  Mon 9AM-10AM | In-person (location TBA) |
+|  | Weizheng Zhang |  Tue 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82071678230) | 
+| LECT0201 | Ziyi Liu |  Thu 1PM-2PM | [Zoom link](https://utoronto.zoom.us/j/82903418818) | 
+|  | Haochen Song |  Fri 9AM-10AM |  TBA |
+|  | Tong Li | Mon 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/87216458189) |
 
 ### Lectures 
 
