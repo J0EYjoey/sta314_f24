@@ -47,7 +47,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |  | Junhao Zhu |  Mon 9AM-10AM | In-person (location TBA) |
 |  | Weizheng Zhang |  Tue 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82071678230) | 
 | LECT0201 | Ziyi Liu |  Thu 1PM-2PM | [Zoom link](https://utoronto.zoom.us/j/82903418818) | 
-|  | Haochen Song |  Fri 9AM-10AM |  TBA |
+|  | Haochen Song |  Fri 9AM-10AM |  [Zoom link](https://utoronto.zoom.us/j/87311196394) |
 |  | Tong Li | Mon 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/87216458189) |
 
 ### Lectures 
