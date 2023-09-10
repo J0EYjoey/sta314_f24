@@ -15,7 +15,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
-- Future annoucements will be posted here.
+- The first lecture starts on September 11th. 
 
 ---
 <br />
