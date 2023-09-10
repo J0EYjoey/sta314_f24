@@ -31,6 +31,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
   - Pattern Recognition and Machine Learning (PRML).
   - Convex Optimization by Boyd and Vandenberghe (ConvOpt).
 - Piazza: [sign-up link](https://piazza.com/utoronto.ca/fall2023/sta314h1).
+- [Syllabus](/lectures/syllabus.pdf).
 
 ### Staff
 
