@@ -43,19 +43,19 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Section | TA  | OH | OH mode | 
 | --- | --- | --- | --- |
-| LECT0101 | Liam Welsh |  Fri 11AM-12PM | [Zoom link](https://utoronto.zoom.us/j/85857947465) |
-|  | Junhao Zhu |  Mon 9AM-10AM | In-person (location TBA) |
-|  | Weizheng Zhang |  Tue 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82071678230) | 
-| LECT0201 | Ziyi Liu |  Thu 1PM-2PM | [Zoom link](https://utoronto.zoom.us/j/82903418818) | 
-|  | Haochen Song |  Fri 9AM-10AM |  [Zoom link](https://utoronto.zoom.us/j/87311196394) |
-|  | Tong Li | Mon 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/87216458189) |
+| LECT0101 | Liam Welsh |  Fri, 11AM-12PM | [Zoom link](https://utoronto.zoom.us/j/85857947465) |
+|  | Junhao Zhu |  Mon, 9AM-10AM | In-person (location TBA) |
+|  | Weizheng Zhang |  Tue, 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82071678230) | 
+| LECT0201 | Ziyi Liu |  Thu, 1PM-2PM | [Zoom link](https://utoronto.zoom.us/j/82903418818) | 
+|  | Haochen Song |  Fri, 9AM-10AM |  [Zoom link](https://utoronto.zoom.us/j/87311196394) |
+|  | Tong Li | Mon, 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/87216458189) |
 
 ### Lectures 
 
 | Section	| Time	| Location | 
 | --- | --- | --- |
-| LEC0101	| Wed 11AM-1PM | MP103 |
-| LEC0201	| Wed 3PM-5PM | SS2118 |
+| LEC0101	| Wed, 11AM-1PM | MP103 |
+| LEC0201	| Wed, 3PM-5PM | SS2118 |
 
 ### Tutorials 
 
