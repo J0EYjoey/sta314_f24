@@ -100,7 +100,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Sep 13 | Introduction to Statistical Learning, <br /> the bias-variance tradeoff | [[Lec01.pdf](/lectures/lec01.pdf)] | Sep 18 <!-- [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] --> | ISL 2.1, 2.2, 2.3 |
 | Sep 20 | Linear regression| <!-- [[Lec03.pdf](/lectures/lec03.pdf)] --> | Sep 25 <!-- [[R code](/tutorials/tut02.R)]--> | <!-- [[Linear algebra review](/tutorials/tut02.pdf)] <br /> --> ISL 3.1, 3.2, 3.3, 6.1.3 |
 | Sep 27 | Model selection, cross-validation | <!-- [[Lec04.pdf](/lectures/lec04.pdf)]--> | Oct 2 | ISL 5.1, 6.1.1,  6.1.2 <br /> ESL 7.10|
-| Oct 4 | Subset selection under linear models, <br /> regularized linear regression | <!-- [[Lec04.pdf](/lectures/lec04.pdf)] --> | No tutorial, Thanksgiving | ISL 5.1, 6.1.1,  6.1.2 <br /> ESL 7.10|
+| Oct 4 | Subset selection under linear models, <br /> regularized linear regression | <!-- [[Lec04.pdf](/lectures/lec04.pdf)] --> | No tutorial, Thanksgiving |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10|
 
 <!-- | Oct 11 | Regularized linear regression,  <br /> gradient descent | [[Lec05.pdf](/lectures/lec05.pdf)] | Oct 17, [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)] | ISL 6.2, 6.4 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
 | Oct 18 | Intro to classification, logistic regression, <br /> stochastic gradient descent | [[Lec06.pdf](/lectures/lec06.pdf)] | No tutorial | ISL 4.1-4.3 <br /> ESL 4.4 <br /> PRML 4.1.2 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
