@@ -44,7 +44,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 | Section | TA  | OH | OH mode | 
 | --- | --- | --- | --- |
 | LEC0101 | Liam Welsh |  Fri, 11AM-12PM | [Zoom link](https://utoronto.zoom.us/j/85857947465) |
-|  | Junhao Zhu |  Mon, 9AM-10AM | In-person (location TBA) |
+|  | Junhao Zhu |  Mon, 9AM-10AM | In-person, SS621 |
 |  | Weizheng Zhang |  Tue, 10AM-11AM | [Zoom link](https://utoronto.zoom.us/j/82071678230) | 
 | LEC0201 | Ziyi Liu |  Thu, 1PM-2PM | [Zoom link](https://utoronto.zoom.us/j/82903418818) | 
 |  | Haochen Song |  Fri, 9AM-10AM |  [Zoom link](https://utoronto.zoom.us/j/87311196394) |
@@ -61,12 +61,12 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Section | Tutorial Session | Time | Location | TA | 
 |--- | --- | --- | --- | --- |
-|LEC0101 | 101 | Mon, 12PM-1PM | SS1083 | TBA  |
-| | 102 |  |  SS2105 |  TBA
-| | 103 |  |   UC52  | TBA |
-|LEC0201| 201 | Mon, 4PM-5PM | SS1072 | TBA |
-| | 202 | |  SS1074 | TBA |
-| | 203 | | SS1087 | TBA |
+|LEC0101 | 101 | Mon, 12PM-1PM | SS1083 | Junhao  |
+| | 102 |  |  SS2105 |  Weizheng |
+| | 103 |  |   UC52  | Liam |
+|LEC0201| 201 | Mon, 4PM-5PM | SS1072 | Haochen |
+| | 202 | |  SS1074 | Ziyi |
+| | 203 | | SS1087 | Tong |
  
 
 ---
