@@ -15,6 +15,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
+- Homework 1 will be released at 11:59pm on Septmeber 20th via Crowdmark. 
 - The first lecture starts on September 11th. 
 
 ---
