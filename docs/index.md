@@ -38,7 +38,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
 | --- | --- | --- |  --- | --- |
-| [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | Mon, 3:00PM-4:00PM <br> Thu, 3:30PM-4:30PM |  [Zoom link](https://utoronto.zoom.us/j/89637295142) | 
+| [Xin Bing](https://sites.coecis.cornell.edu/xinbing/) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | Mon, 3:00PM-4:00PM <br> Thu, 3:30PM-4:30PM |  [Zoom link](https://utoronto.zoom.us/j/89637295142) <br> [Zoom link](https://utoronto.zoom.us/j/89932294462)| 
 
 ### TAs
 
