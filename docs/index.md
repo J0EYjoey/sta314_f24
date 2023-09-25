@@ -81,8 +81,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |---|---|---|---|---|
 | Homework 1 | Sep 21, 12 AM | Oct 4, 11:59 PM | 10% | Lec01-03 |
 | Homework 2 | Oct 5, 12 AM | Oct 18, 11:59 PM  | 10% | Lec04-05 |
-| Midterm exam | Oct 25 | LEC0101, 11AM-1PM, EX200 | 30% | Lec01-06 | 
-| |  | LEC0201, 3PM-5PM, EX200 |    |   |
+| Midterm exam | Oct 25, location: EX200 | LEC0101, 11AM-1PM   <br> LEC0201, 3PM-5PM  | 30% | Lec01-06 | 
 | Homework 3 | Nov 2, 12 AM | Nov 15, 11:59 PM | 10% | Lec06-08 |
 | Homework 4 | Nov 16, 12 AM | Nov 29, 11:59 PM  | 10% | Lec06-10 |
 | Final exam | TBA |  |   30% | Lec01-12 |
