@@ -105,7 +105,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Oct 11 | More on regularized linear regression  | [[Lec05.pdf](/lectures/lec05.pdf)] |  Oct 16  <!-- [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)]--> | ISL 6.2, 6.4 |
 | Oct 18 | Move beyond linearity, <br /> introduction to classification  |  [[Lec06.pdf](/lectures/lec06.pdf)]  | No tutorial | ISL 4.1-4.3, 7  |
 | Oct 23 | Logistic regression   |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.4-4.6 <br /> ESL 4.3, 4.4 |
-| Nov 1 | Gradient descent <br /> discriminant analysis | <!-- [[Lec08.pdf](/lectures/lec08.pdf)] --> | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
+| Nov 1 | Gradient descent, discriminant analysis | <!-- [[Lec08.pdf](/lectures/lec08.pdf)] --> | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
 
 <!-- 
 | Nov 15 | K nearest neighbour, support vector machine | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21, [[R code](/tutorials/tut05.R)] |   ESL 5.1, 5.2 <br />  ConvOpt 2.5, 5.1, 5.2 |
