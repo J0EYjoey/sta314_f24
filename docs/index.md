@@ -103,12 +103,12 @@ This is a preliminary schedule; it may change throughout the term.
 | Sep 27 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10|
 | Oct 4 | Subset selection under linear models, <br /> regularized linear regression | [[Lec04.pdf](/lectures/lec04.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10 |
 | Oct 11 | More on regularized linear regression  | [[Lec05.pdf](/lectures/lec05.pdf)] |  Oct 16  <!-- [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)]--> | ISL 6.2, 6.4 |
-| Oct 18 | Move beyond linearity, <br /> introduction to classification  |  [[Lec06.pdf](/lectures/lec06.pdf)]  | No tutorial | ISL 4.1-4.3, 7 <br /> ESL 4.4 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
-| Oct 23 | Logistic regression   |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.4-4.6 <br /> ESL 4.3 |
+| Oct 18 | Move beyond linearity, <br /> introduction to classification  |  [[Lec06.pdf](/lectures/lec06.pdf)]  | No tutorial | ISL 4.1-4.3, 7  |
+| Oct 23 | Logistic regression   |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.4-4.6 <br /> ESL 4.3, 4.4 |
+| Nov 1 | Gradient descent <br /> discriminant analysis | <!-- [[Lec08.pdf](/lectures/lec08.pdf)] --> | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
 
 <!-- 
-| Nov 1 | Discriminant analysis: <br /> LDA, QDA, naive Bayes, Support vector machines | [[Lec08.pdf](/lectures/lec08.pdf)] | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> ConvOpt 2.5, 5.1, 5.2 |
-| Nov 15 | Moving beyond linearity, k nearest neighbour | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21, [[R code](/tutorials/tut05.R)] |  ESL 5.1, 5.2 |
+| Nov 15 | K nearest neighbour, support vector machine | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 21, [[R code](/tutorials/tut05.R)] |   ESL 5.1, 5.2 <br />  ConvOpt 2.5, 5.1, 5.2 |
 | Nov 22 | Tree based approaches: decision tree | [[Lec10.pdf](/lectures/lec10.pdf)] | No tutorial | ISL 8.1  <br /> ESL 9.2  |
 | Nov 29 | Bagging, boosting and random forest; <br /> Bootstrap | [[Lec11.pdf](/lectures/lec11.pdf)] | Dec 5, [[R code](/tutorials/tut06.R)] | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Notes on gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
 | Dec 6 | Unsupervised learning: K-means clustering and PCA | [[Lec12.pdf](/lectures/lec12.pdf)] | Class ends | ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 |
