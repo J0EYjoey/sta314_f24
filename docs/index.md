@@ -104,7 +104,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Oct 4 | Subset selection under linear models, <br /> regularized linear regression | [[Lec04.pdf](/lectures/lec04.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10 |
 | Oct 11 | More on regularized linear regression  | [[Lec05.pdf](/lectures/lec05.pdf)] |  Oct 16  <!-- [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)]--> | ISL 6.2, 6.4 |
 | Oct 18 | Move beyond linearity, <br /> introduction to classification  |  [[Lec06.pdf](/lectures/lec06.pdf)]  | No tutorial | ISL 4.1-4.3, 7 <br /> ESL 4.4 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
-| Oct 23 | Logistic regression <br /> gradient descent | <!-- [[Lec07.pdf](/lectures/lec07.pdf)]--> | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.4-4.6 <br /> ESL 4.3 |
+| Oct 23 | Logistic regression   |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.4-4.6 <br /> ESL 4.3 |
 
 <!-- 
 | Nov 1 | Discriminant analysis: <br /> LDA, QDA, naive Bayes, Support vector machines | [[Lec08.pdf](/lectures/lec08.pdf)] | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> ConvOpt 2.5, 5.1, 5.2 |
