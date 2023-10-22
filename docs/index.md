@@ -100,8 +100,8 @@ This is a preliminary schedule; it may change throughout the term.
 | Sep 11 | Logistics and introduction |  [[Lec00.pdf](/lectures/lec00.pdf)]  | No tutorial |  ISL 1  |
 | Sep 13 | Introduction to Statistical Learning, <br /> the bias-variance tradeoff | [[Lec01.pdf](/lectures/lec01.pdf)] | Sep 18,   [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)]   |  [[Linear algebra review](/tutorials/review_linear_algebra.pdf)] <br /> ISL 2.1, 2.2, 2.3 |
 | Sep 20 | Linear regression| [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 25, [[R code](/tutorials/tut02.R)] | ISL 3.1, 3.2, 3.3, 3.6 |
-| Sep 27 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10|
-| Oct 4 | Subset selection under linear models, <br /> regularized linear regression | [[Lec04.pdf](/lectures/lec04.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10 |
+| Sep 27 | Model selection under linear models, cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10|
+| Oct 4 | Subset selection under linear models, regularized linear regression | [[Lec04.pdf](/lectures/lec04.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10 |
 | Oct 11 | More on regularized linear regression  | [[Lec05.pdf](/lectures/lec05.pdf)] |  Oct 16  <!-- [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)]--> | ISL 6.2, 6.4 |
 | Oct 18 | Move beyond linearity  |  [[Lec06.pdf](/lectures/lec06.pdf)]  | No tutorial | ISL 7.1-7.4, 7.6, 7.7  |
 | Oct 23 | Introduction to classification  |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.1, 4.2 |
