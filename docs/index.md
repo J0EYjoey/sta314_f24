@@ -105,7 +105,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Oct 4 | Subset selection under linear models, <br /> regularized linear regression | [[Lec04.pdf](/lectures/lec04.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10 |
 | Oct 11 | More on regularized linear regression  | [[Lec05.pdf](/lectures/lec05.pdf)] |  Oct 16  <!-- [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)]--> | ISL 6.2, 6.4 |
 | Oct 18 | Move beyond linearity  |  [[Lec06.pdf](/lectures/lec06.pdf)]  | No tutorial | ISL 7.1-7.4, 7.6, 7.7  |
-| Oct 23 | Introduction to classification  |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30 <!--, [[R code](/tutorials/tut04.R)], [[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.1, 4.2 |
+| Oct 23 | Introduction to classification  |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30, [[Rmd](/tutorials/tut04.Rmd)] <!--[[Calculus](/tutorials/notes_on_multivariable_calculus.pdf)] --> | ISL 4.1, 4.2 |
 | Nov 1 | Logistic regression, gradient descent|  [[Lec08.pdf](/lectures/lec08.pdf)]  | Nov 13 | ISL 4.4-4.6, 9.1-9.5 <br /> ESL 4.3, 4.4, 12.1, 12.2 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
 
 <!-- 
