@@ -81,7 +81,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |  | Out | Due |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
 |  [Homework 1](/hws/hw1/hw1.pdf) | Sep 21, 12 AM | Oct 4, 11:59 PM | 10% | Lec01-03 |  [[Q1-Q4.pdf](/hws/hw1/hw1_Q1-Q4.pdf)],[[Q5.pdf](/hws/hw1/hw1_Q5.pdf)]  ||
-|  [Homework 2](/hws/hw2/hw2.pdf) | Oct 5, 12 AM | Oct 18, 11:59 PM  | 10% | Lec04-05 | [[Q1.pdf](/hws/hw2/hw2_Q1.pdf)],[[Q4-Q5.pdf](/hws/hw2/hw2_Q4-Q5.pdf)] |
+|  [Homework 2](/hws/hw2/hw2.pdf) | Oct 5, 12 AM | Oct 18, 11:59 PM  | 10% | Lec04-05 | [[Q1.pdf](/hws/hw2/hw2_Q1.pdf)],[[Q4-Q5.pdf](/hws/hw2/hw2_Q2-Q4.pdf)] |
 | Midterm exam | Oct 25, location: EX200 | LEC0101, 11AM-1PM   <br> LEC0201, 3PM-5PM  | 30% | Lec01-06 | |
 | Homework 3 | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | |
 | Homework 4 | Nov 16, 12 AM | Nov 29, 11:59 PM  | 10% | Lec06-10 | |
