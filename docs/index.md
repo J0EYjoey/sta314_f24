@@ -109,7 +109,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Nov 1 | Logistic regression, gradient descent|  [[Lec08.pdf](/lectures/lec08.pdf)]  | No tutorial | ISL 4.3-4.6, 9.1-9.5 <br /> ESL 4.3, 4.4, 12.1, 12.2 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <br /> [[Multivariate calculus](/tutorials/notes_on_multivariable_calculus.pdf)] |
 | Nov 15 | Multi-class logistic regression, <br /> discriminant analysis | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 20 <!-- [[R code](/tutorials/tut05.R)]--> |  ISL 4.3-4.6 <br /> ESL 5.1, 5.2 <br />  ConvOpt 2.5, 5.1, 5.2 |
 | Nov 22 | Tree based approaches: decision tree | [[Lec10.pdf](/lectures/lec10.pdf)]  | No tutorial | ISL 8.1  <br /> ESL 9.2  |
-| Nov 29 | Bagging, boosting, <br /> random forest, bootstrap | <!-- [[Lec11.pdf](/lectures/lec11.pdf)]--> | No tutorial <!-- Dec 5, [[R code](/tutorials/tut06.R)]--> | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Notes on gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
+| Nov 29 | Bagging, boosting, <br /> random forest, bootstrap | <!-- [[Lec11.pdf](/lectures/lec11.pdf)]--> |  Dec 5, TBD <!--[[R code](/tutorials/tut06.R)]--> | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Notes on gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
 | Dec 6 | TBD <!--Unsupervised learning: K-means clustering and PCA--> | <!-- [[Lec12.pdf](/lectures/lec12.pdf)]--> | Class ends | <!-- ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 --> |
 
 
