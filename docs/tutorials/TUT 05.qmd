@@ -1,0 +1,378 @@
+---
+title: "TUT 05"
+format: html
+editor: visual
+---
+
+## Tutorial \# 5: Chapter 4 Lab: Logistic Regression, LDA, QDA, and KNN
+
+## Logistic Regression demo:
+
+logistic regression does not converge under separation of the data, as shown in below coding:
+
+i.e. when the data points for the two categories are significantly far from each other, the logistic regression line does not converge during the training process.
+
+In this case, the data points for the two categories (0s and 1s) are so far apart that the logistic regression algorithm cannot find a set of parameters that lead to meaningful fit. This is precisely the issue of perfect separation. This is how the warning occurred.
+
+```{r}
+y0 <- rep(0,10)
+y1 <- rep(1,10)
+y <- c(y0, y1)  # for running glm for logistic regression, we must encode y by 0 or 1. (two categories of the data, for more than two categories use multi-nomial logistc regression)
+x0 <- rnorm(10)  # this follows Normal(0,1)
+x1 <- rnorm(10, 5, 1) # this follows Normal(5,1) to set x0 and x1 far from each other
+x <- c(x0, x1)
+y
+x
+plot(x0, y0, ylim = range(y), xlim = range(x), col = "blue")
+points(x1, y1, col="red") # red and blue points are separated
+
+fit=glm(y~x,family=binomial)
+summary(fit)
+warnings() # note the warning messages we get, as mentioned before a perfect seperation happens
+predict(fit,type="response")
+
+seq=seq(min(x) - 0.1, max(x) + 0.1, by = 0.1)
+prediction <- predict(fit, list(x=seq), type="response")
+lines(seq, prediction, col = "green")
+```
+
+## Apply Logistic regression to Stock Market Data
+
+Let's first look at the stock data:
+
+```{r}
+library(ISLR)
+?Smarket
+names(Smarket)
+dim(Smarket)
+summary(Smarket)
+pairs(Smarket)
+```
+
+notice the last variable is :\
+
+```{r}
+head(Smarket[,9])
+```
+
+`Direction`
+
+:   A factor with levels `Down` and `Up` indicating whether the market had a positive or negative return on a given day
+
+We will use this Direction as response variable, we will be fitting a model to predict the stock price trend for the next day given our independent variables, Lag1 to Lag5 and Volume.
+
+For logistic we want to use numeric variables
+
+```{r}
+# cor(Smarket)   
+# above function won't work as direction is not numeric 
+
+```
+
+```{r}
+cor(Smarket[,-9])
+attach(Smarket) # the correlation between Year and Volume is 0.54! 
+plot(Volume)  # let's take a closer look at this variable
+```
+
+Let's fit the model with Lag1, Lag2, Lag3, Lag4, Lag5 and Volume:
+
+```{r}
+glm.fit <- glm(Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume, 
+               data = Smarket, family = binomial)
+summary(glm.fit)
+coef(glm.fit)
+glm.fit$coefficients
+summary(glm.fit)$coef
+summary(glm.fit)$coef[,4]
+```
+
+and we can take a look at the corresponding prediction value:
+
+```{r}
+glm.probs <- predict(glm.fit, type = "response") # predict on the whole dataset
+# glm.probs[1:10] 
+# above function can look at the first 10 predictions, this is the probability of stock price going up the next day, feel free to uncode it to show students.
+contrasts(Direction) # this function tell you how Direction is coded, Down as in 0 and Up as in 1
+
+glm.pred <- rep("Down", nrow(Smarket)) 
+glm.pred[glm.probs > 0.5] = "Up" # classify our probability
+table(glm.pred, Direction) # and contrast a table here
+# (507+145)/1250  
+paste('Correct prediction rate is', mean(glm.pred == Direction)*100, '%') 
+# percentage of correct predictions for the training samples
+
+```
+
+Notice that this is only 2.16% better than random guessing......
+
+Let's further look into a bit of train-test split:
+
+we will use the data before 2005 to train the model and test the fitted model by the data after 2005.
+
+```{r}
+train <- (Year < 2005) # split data into training and testing data
+test <- Smarket[!train, ]  # test data
+dim(test) # 252 * 9 for the testing data
+Direction.test <- Direction[!train] # test data directions
+
+# fit logistic regressioon on the training data
+glm.fit <- glm(Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume,
+               data = Smarket, family = binomial, subset = train)
+glm.probs <- predict(glm.fit, test, type="response")
+glm.pred <- rep("Down", sum(!train))
+glm.pred[glm.probs > 0.5] <- "Up"
+table(glm.pred, Direction.test)
+paste('Correct prediction rate is', mean(glm.pred == Direction.test))
+
+```
+
+notice that at this point it is even worse than random guessing....
+
+Let's try to fit on a slightly smaller dimension, by using just Lag1 and Lag2:
+
+```{r}
+glm.fit <- glm(Direction ~ Lag1 + Lag2, data = Smarket, family = binomial,
+               subset = train)
+glm.probs <- predict(glm.fit, test, type="response")
+glm.pred <- rep("Down", sum(!train))
+glm.pred[glm.probs > 0.5] = "Up"
+table(glm.pred,Direction.test)
+paste('Correct prediction rate is', mean(glm.pred == Direction.test)*100, '%')
+```
+
+a bit better in terms 5%. This model could be trained/refined with Bootstrap method, as an exercise for students to try.
+
+Let's shift our focus to LDA, QDA and KNN now, to see how they perform in our case:
+
+## LDA, QDA and KNN
+
+### Linear Discriminant Analysis method:
+
+on the same question we are fitting before, predicting the stock price change:
+
+```{r}
+library(MASS)
+lda.fit <- lda(Direction ~ Lag1 + Lag2, data = Smarket, subset = train)
+lda.fit  #if −0.642 × Lag1 − 0.514 × Lag2 is large, we predict up.
+lda.pred <- predict(lda.fit, test)
+names(lda.pred)
+lda.class <- lda.pred$class
+table(lda.class, Direction.test)
+paste('Correct prediction rate is',mean(lda.class == Direction.test))  #similar results to logistic regression
+```
+
+Graphically what we are trying to achieve, this should also explain why it is not working well, the factors are too clustered together.
+
+```{r}
+library(MASS)
+library(ggplot2)
+
+# Assuming Smarket data is already loaded and 'train' is defined
+lda.fit <- lda(Direction ~ Lag1 + Lag2, data = Smarket, subset = train)
+
+# Creating a grid to plot decision boundary
+xrange <- range(Smarket$Lag1)
+yrange <- range(Smarket$Lag2)
+grid <- expand.grid(Lag1 = seq(from = xrange[1], to = xrange[2], length.out = 200),
+                    Lag2 = seq(from = yrange[1], to = yrange[2], length.out = 200))
+
+# Predicting class for each point in the grid
+lda.pred <- predict(lda.fit, newdata = grid)
+class.pred <- lda.pred$class
+
+# Convert to data frame for ggplot
+grid['class'] <- as.factor(class.pred)
+data_to_plot <- Smarket[train, c('Lag1', 'Lag2', 'Direction')]
+
+# Plot
+ggplot(data_to_plot, aes(x = Lag1, y = Lag2, color = Direction)) + 
+  geom_point(alpha = 0.8) + 
+  scale_color_manual(values = c('blue', 'red')) +
+  geom_contour(data = grid, aes(z = as.numeric(class)), breaks = 1.5, color = 'black') +
+  ggtitle('LDA Decision Boundary for Smarket Data')
+```
+
+## Quadratic Discriminant Analysis
+
+similar work on a QDA format:
+
+```{r}
+###   Quadratic Discriminant Analysis
+
+qda.fit <- qda(Direction ~ Lag1 + Lag2, data = Smarket, subset = train)
+qda.fit
+qda.class <- predict(qda.fit, test)$class
+table(qda.class, Direction.test)
+paste('Correct prediction rate is',mean(qda.class == Direction.test))
+```
+
+it is getting better! let's see what the prediction curve is doing graphically we are trying to:
+
+```{r}
+# Assuming Smarket data is already loaded and 'train' is defined
+qda.fit <- qda(Direction ~ Lag1 + Lag2, data = Smarket, subset = train)
+
+# Creating a grid to plot decision boundary
+xrange <- range(Smarket$Lag1)
+yrange <- range(Smarket$Lag2)
+grid <- expand.grid(Lag1 = seq(from = xrange[1], to = xrange[2], length.out = 200),
+                    Lag2 = seq(from = yrange[1], to = yrange[2], length.out = 200))
+
+# Predicting class for each point in the grid
+qda.pred <- predict(qda.fit, newdata = grid)
+class.pred <- qda.pred$class
+
+# Convert to data frame for ggplot
+grid['class'] <- as.factor(class.pred)
+data_to_plot <- Smarket[train, c('Lag1', 'Lag2', 'Direction')]
+
+# Plot
+ggplot(data_to_plot, aes(x = Lag1, y = Lag2, color = Direction)) + 
+  geom_point(alpha = 0.8) + 
+  scale_color_manual(values = c('blue', 'red')) +
+  geom_contour(data = grid, aes(z = as.numeric(class)), breaks = 1.5, color = 'black') +
+  ggtitle('QDA Decision Boundary for Smarket Data')
+```
+
+## K nearest Neighbors
+
+### For K = 1:
+
+```{r}
+library(class)
+train.X <- cbind(Lag1,Lag2)[train, ] #X for training data
+test.X <- cbind(Lag1,Lag2)[!train, ] #X for testing data
+train.Direction <- Direction[train] #Y for training data
+
+set.seed(1) # to ensure the reproducibility, set a random seed beforehand
+knn.pred <- knn(train.X, test.X, train.Direction, k = 1)
+table(knn.pred, Direction.test)
+paste('Correct prediction rate is', mean(knn.pred == Direction.test))
+```
+
+it is just as good as random guessing, let's take a look at why:
+
+```{r}
+train_data <- data.frame(Lag1 = train.X[,1], Lag2 = train.X[,2], Direction = train.Direction)
+test_data <- data.frame(Lag1 = test.X[,1], Lag2 = test.X[,2], Prediction = knn.pred)
+# Plot
+ggplot() +
+  geom_point(data = train_data, aes(x = Lag1, y = Lag2, color = Direction), shape = 1) +
+  geom_point(data = test_data, aes(x = Lag1, y = Lag2, color = Prediction), shape = 4) +
+  scale_color_manual(values = c('blue', 'red')) +
+  labs(color = 'Class', title = 'KNN Classification with k = 1') +
+  theme_minimal()
+```
+
+for the exterior part it was doing with less confidence, and the interior part is dealing with too much complexity, let's see if increasing K will get better:
+
+### For K = 3
+
+```{r}
+knn.pred <- knn(train.X, test.X, train.Direction, k = 3)
+table(knn.pred, Direction.test)
+paste('Correct prediction rate is',mean(knn.pred == Direction.test))
+```
+
+getting slightly better
+
+## Results Summary:
+
+| Algorithms                      | Correct Prediction Rate |
+|---------------------------------|-------------------------|
+| GLM with every variable         | 0.480                   |
+| GLM with Lag1 and Lag2          | 0.560                   |
+| LDA with Lag1 and Lag2          | 0.560                   |
+| QDA with Lag1 and Lag2          | 0.600                   |
+| KNN (K = 1 ) with Lag1 and Lag2 | 0.500                   |
+| KNN (K = 3) with Lag1 and Lag2  | 0.536                   |
+
+: Summary of Prediction Accuracy for Different Methods
+
+Notice this still largely depends on the parameter choice, students could feel free to test other combinations.
+
+## An Application on Other data --- Caravan Insurance Data
+
+```{r, message = FALSE}
+### An Application to Caravan Insurance Data
+?Caravan
+dim(Caravan)
+attach(Caravan)
+summary(Purchase)
+paste('yes ratio of the data is', sum(Purchase == 'Yes')/ length(Purchase))  # the ratio of Yes is very small, i.e. the two classes are highly imbalanced
+
+```
+
+Let's perform a train test split, with scaling the train matrix at the same variance, we will use the first 1000 data as testing dataset
+
+```{r}
+standardized.X <- scale(Caravan[,-86])  # the 86th column is the Purchase outcome
+# st
+var(Caravan[,1]) # the variance is too high..
+var(Caravan[,2]) # and this one is a bit too low...
+var(standardized.X[,1]) # now this is better! 
+var(standardized.X[,2])
+
+# perform a train test split
+test_ind <- 1:1000 # we will 
+train.X <- standardized.X[-test_ind,]
+train.Y <- Purchase[-test_ind]
+
+test.X <- standardized.X[test_ind,]
+test.Y <- Purchase[test_ind]
+```
+
+### KNN method with K = 1
+
+```{r}
+
+set.seed(1)
+knn.pred <- knn(train.X, test.X, train.Y, k = 1)
+table(knn.pred, test.Y)
+mean(test.Y != knn.pred)
+mean(test.Y != "No")  # Overall, KNN is no better than blindly classifying to "No"
+
+9 / (9 + 68)  # However, it improves the chance of Purchase to 11.7% comparing to 5.8% if we look at the predicted 'Yes' group. (think of a compaignian, this forecasted group might be good to target compare to target a general population)
+```
+
+### KNN with K = 3
+
+```{r}
+knn.pred <- knn(train.X, test.X, train.Y, k = 3)
+table(knn.pred, test.Y)
+5 / (5 + 21) # increasing, but with less and less samples in the group
+
+
+```
+
+### KNN with k = 5
+
+```{r}
+knn.pred <- knn(train.X, test.X, train.Y, k = 5)
+table(knn.pred,test.Y)
+4 / (4 + 11) # even fewer samples
+
+
+```
+
+### GLM with 0.5 as cutting threshold
+
+```{r}
+glm.fit <- glm(Purchase~., data = Caravan, family = binomial, subset = -test_ind)
+glm.probs <- predict(glm.fit, Caravan[test_ind,], type="response")
+glm.pred <- rep("No", 1000)
+glm.pred[glm.probs > 0.5] <- "Yes"
+table(glm.pred,test.Y) # not working well as there is no predicted Yes value correctly. This might indicate us to lower the threshold to make the decision
+
+
+```
+
+### GLM with 0.25 as cutting threshold
+
+```{r}
+glm.pred <- rep("No",1000)
+glm.pred[glm.probs > 0.25] <- "Yes"
+table(glm.pred,test.Y) 
+11/(22+11)  # slightly better but still very high FALSE POSITIVE rate
+```
