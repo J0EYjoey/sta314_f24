@@ -87,7 +87,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 | Midterm exam | Oct 25, location: EX200 | LEC0101, 11AM-1PM   <br> LEC0201, 3PM-5PM  | 30% | Lec01-06 |[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)] |
 | [Homework 3](/hws/hw3/hw3.pdf) | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | |
 | [Homework 4](/hws/hw4/hw4.pdf) | Nov 16, 12 AM | Nov 29, 11:59 PM  | 10% | Lec06-10 | [[discriminant_analysis.R](/hws/hw4/discriminant_analysis.R)] |
-| Final exam | Dec 9, 2-4 PM |  |   30% | Lec01-12 | |
+| Final exam | Dec 9, 2-4 PM |  |   30% | Lec01-11 | |
 
 ---
 
