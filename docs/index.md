@@ -15,6 +15,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
+- Homework 3 solution is available below. 
 - The last tutorial will be on Dec 4th. 
 - Homework 4 will be due on Nov 29th, 11:59pm. 
 - Midterm will be Oct 25th. We will have makeup classes on Oct 23rd. 
@@ -82,10 +83,10 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 |  | Out | Due |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
-|  [Homework 1](/hws/hw1/hw1.pdf) | Sep 21, 12 AM | Oct 4, 11:59 PM | 10% | Lec01-03 |  [[Q1-Q4.pdf](/hws/hw1/hw1_Q1-Q4.pdf)],[[Q5.pdf](/hws/hw1/hw1_Q5.pdf)]  ||
+|  [Homework 1](/hws/hw1/hw1.pdf) | Sep 21, 12 AM | Oct 4, 11:59 PM | 10% | Lec01-03 |  [[Q1-Q4.pdf](/hws/hw1/hw1_Q1-Q4.pdf)],[[Q5.pdf](/hws/hw1/hw1_Q5.pdf)]  |
 |  [Homework 2](/hws/hw2/hw2.pdf) | Oct 5, 12 AM | Oct 18, 11:59 PM  | 10% | Lec04-05 | [[Q1.pdf](/hws/hw2/hw2_Q1.pdf)],[[Q4-Q5.pdf](/hws/hw2/hw2_Q2-Q4.pdf)] |
 | Midterm exam | Oct 25, location: EX200 | LEC0101, 11AM-1PM   <br> LEC0201, 3PM-5PM  | 30% | Lec01-06 |[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)] |
-| [Homework 3](/hws/hw3/hw3.pdf) | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | |
+| [Homework 3](/hws/hw3/hw3.pdf) | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | [[Q1-Q3.pdf](/hws/hw3/hw3_solution_Q1_Q3.pdf)],[[Q4-Q5.pdf](/hws/hw3/hw3_solution_Q4Q5.pdf)] |
 | [Homework 4](/hws/hw4/hw4.pdf) | Nov 16, 12 AM | Nov 29, 11:59 PM  | 10% | Lec06-10 | [[discriminant_analysis.R](/hws/hw4/discriminant_analysis.R)] |
 | Final exam | Dec 9, 2-4 PM |  |   30% | Lec01-11 | |
 
@@ -112,6 +113,6 @@ This is a preliminary schedule; it may change throughout the term.
 | Nov 15 | Multi-class logistic regression, <br /> discriminant analysis | [[Lec09.pdf](/lectures/lec09.pdf)] | Nov 20, [[Rmd](/tutorials/TUT05.qmd)] |  ISL 4.3-4.6 <br /> ESL 5.1, 5.2 <br />  ConvOpt 2.5, 5.1, 5.2 |
 | Nov 22 | Tree based approaches: decision tree | [[Lec10.pdf](/lectures/lec10.pdf)]  | No tutorial | ISL 8.1  <br /> ESL 9.2  |
 | Nov 29 | Bootstrap, bagging, <br /> random forest, boosting |  [[Lec11.pdf](/lectures/lec11.pdf)]  |  Dec 4, [[Rmd](/tutorials/tut06.Rmd)] | ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Notes on gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
-| Dec 6 |  Unsupervised learning: K-means clustering and PCA | <!-- [[Lec12.pdf](/lectures/lec12.pdf)]--> | Class ends | <!-- ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 --> |
+| Dec 6 |  Unsupervised learning: K-means clustering and PCA |  [[Lec12.pdf](/lectures/lec12.pdf)] | Class ends | <!-- ISL 10.1 - 10.3 <br /> ESL 14.3 <br /> PRML 9.1 --> |
 
 
