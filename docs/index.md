@@ -15,6 +15,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
+- Homework 4 solution is available below. 
 - Homework 3 solution is available below. 
 - The last tutorial will be on Dec 4th. 
 - Homework 4 will be due on Nov 29th, 11:59pm. 
