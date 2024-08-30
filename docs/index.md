@@ -31,7 +31,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ### Course email and textbooks
 
-- Course email: [sta314@course.utoronto.ca](mailto:sta314@course.utoronto.ca) (for requests and communication with instructors)
+- Course email: [sta314@course.utoronto.ca](mailto:sta314@course.utoronto.ca) (for requests and communication with the teaching group)
 - Textbook: [An Introduction to Statistical Learning (ISL)](https://www.statlearning.com) 
 - References:
   - Elements of Statistical Learning (ESL).
