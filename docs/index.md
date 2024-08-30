@@ -83,10 +83,10 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Grading scheme
 
-|  | Out | Due |  Credit | Content | Solution |
+|  | Date | Time \& Location |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
-| Midterm one | Sep 25 | LEC0101: 11AM-1PM, EX100   <br> LEC0201: 3PM-5PM, EX100  | 20% | Lec01-06 |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
-| Midterm two | Oct 23 | LEC0101: 11AM-1PM, EX200    <br> LEC0201: 3PM-5PM, EX100  | 25% | Lec01-06 | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
+| Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 20% | Lec01-06 |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
+| Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | Lec01-06 | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Final exam | TBA |  |   35% | Lec01-11 | |
 <!--| [Homework 3](/hws/hw3/hw3.pdf) | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | [[Q1-Q3.pdf](/hws/hw3/hw3_solution_Q1_Q3.pdf)],[[Q4-Q5.pdf](/hws/hw3/hw3_solution_Q4Q5.pdf)] |
 | [Homework 4](/hws/hw4/hw4.pdf) | Nov 16, 12 AM | Nov 29, 11:59 PM  | 10% | Lec06-10 | [[sol-derivation](/hws/hw4/hw4_solution_derivation.pdf)], [[sol-coding](/hws/hw4/hw4_solution_coding.pdf)]  |-->
@@ -101,12 +101,23 @@ This is a preliminary schedule; it may change throughout the term.
 
 | Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
 | --- | --- | --- | --- | --- |
-| Sep 4 | Logistics <br /> introduction to Statistical Learning |  [[Lec00.pdf](/lectures/lec00.pdf)]  | No tutorial |  ISL 1  |
-| Sep 9 | The bias-variance tradeoff | [[Lec01.pdf](/lectures/lec01.pdf)] | Sep 9,   [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)]   |  [[Linear algebra review](/tutorials/review_linear_algebra.pdf)] <br /> ISL 2.1, 2.2, 2.3 |
-| Sep 11 | Linear regression| [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 25, [[R code](/tutorials/tut02.R)] | ISL 3.1, 3.2, 3.3, 3.6 |
-| Sep 16 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10|
+| Sep 4 | Logistics, <br /> introduction to Statistical Learning, <br /> the bias-variance tradeoff |  [[Lec00.pdf](/lectures/lec00.pdf)],[[Lec01.pdf](/lectures/lec01.pdf)]  | No tutorial |  ISL 1, 2.1 - 2.3   |
+| Sep 9 (Mon) | Linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 9,   [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)]   |  [[Linear algebra review](/tutorials/review_linear_algebra.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
+| Sep 11 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Sep 25, [[R code](/tutorials/tut02.R)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
+| Sep 16 (Mon) |  |  | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | |
 | Sep 18 | Subset selection under linear models, <br /> regularized linear regression | [[Lec04.pdf](/lectures/lec04.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.1.1,  6.1.2, 6.2, 6.4 <br /> ESL 7.10 |
-
+| Sep 23 (Mon) | More on regularized linear regression  |  | | | |
+| Sep 25 | Midterm one | | | |
+| Sep 30 (Mon) | | | | |
+| Oct 2  | | | | |
+| Oct 7 (Mon)  | | | | |
+| Oct 9  | | | | |
+| Oct 16 | | | | |
+| Oct 23 | Midterm two | | | |
+| Nov 6  | | | | |
+| Nov 13 | | | | |
+| Nov 20 | | | | |
+| Nov 27 | | | | |
 
 <!-- 
 | Oct 11 | More on regularized linear regression  | [[Lec05.pdf](/lectures/lec05.pdf)] |  Oct 16  [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)] | ISL 6.2, 6.4 |
