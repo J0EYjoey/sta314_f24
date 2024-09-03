@@ -89,7 +89,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 |  | Date | Time \& Location |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
-| Quizzes | During tutorials | | 5\% | | | 
+| Quizzes | NA | During tutorials | 5\% | | | 
 | Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Final exam | TBA |  |   25% | TBA | |
