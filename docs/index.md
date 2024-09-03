@@ -48,16 +48,16 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ### TAs
 
-| Section | TA  | OH | OH mode | Session |
-| --- | --- | --- | --- | --- |
-| LEC0101 | Haochen Song | Tue (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/81683760499) | 101, 202 |
-|  | Xiaochuan Shi | Mon (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/82036868816) | 102 |
-|  | Jorge Arturo Esquivel Fuente  | Tue (11am-12am) | [Zoom link](https://utoronto.zoom.us/j/84836574590) | 103 |
-|	 | Junhao Zhu |	Fri (9am-10am) | in-person | 104 | 
-| LEC0201 | Liam Welsh	| Thu (9am-10am) |  Zoom link  |   |
-|	 | Luis Sierra Muntan\'{e} |  Tue (10am-11am)	 | in-person | 201  | 
-|	 | Konstantinos Christopher Tsiolis   | Thu (4pm-5pm) |  [Zoom link](https://utoronto.zoom.us/j/88132149228) | 203  |
-|	 | Rafael Alexander Valencia Sanchez  | Thu (12:30pm-1:30pm)	| [Zoom link](https://utoronto.zoom.us/j/83303506489)  | 204 |
+| Section | TA  | OH | OH mode |  
+| --- | --- | --- | --- |  
+| LEC0101 | Haochen Song | Tue (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/81683760499) |  
+|  | Xiaochuan Shi | Mon (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/82036868816) |  
+|  | Jorge Arturo Esquivel Fuente  | Tue (11am-12am) | [Zoom link](https://utoronto.zoom.us/j/84836574590) | 
+|	 | Junhao Zhu |	Fri (9am-10am) | in-person |  
+| LEC0201 | Liam Welsh	| Thu (9am-10am) |  Zoom link  |  
+|	 | Luis Sierra Muntan\'{e} |  Tue (10am-11am)	 | in-person |  
+|	 | Konstantinos Christopher Tsiolis   | Thu (4pm-5pm) |  [Zoom link](https://utoronto.zoom.us/j/88132149228) |  
+|	 | Rafael Alexander Valencia Sanchez  | Thu (12:30pm-1:30pm)	| [Zoom link](https://utoronto.zoom.us/j/83303506489)  | 
 
 ### Lectures 
 
@@ -68,7 +68,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ### Tutorials 
 
-| Section | Tutorial Session | Time | Location | TA | 
+| Section | Session | Time | Location | TA | 
 |--- | --- | --- | --- | --- |
 | LEC0101 | 101 | Mon, 11am-12pm | TBD | Haochen  |
 | | 102 |  |  TBD |  Xiaochuan |
@@ -89,7 +89,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 |  | Date | Time \& Location |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
-| Quizzes | During tutorials | | 5\% | | | 
+| Quizzes | NA | During tutorials | 5\% | | | 
 | Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Final exam | TBA |  |   25% | TBA | |
