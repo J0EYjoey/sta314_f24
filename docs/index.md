@@ -68,7 +68,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ### Tutorials 
 
-| Section | Tutorial Session | Time | Location | TA | 
+| Section | Session | Time | Location | TA | 
 |--- | --- | --- | --- | --- |
 | LEC0101 | 101 | Mon, 11am-12pm | TBD | Haochen  |
 | | 102 |  |  TBD |  Xiaochuan |
