@@ -86,7 +86,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Grading scheme
 
-|  | Date | Time \& Location |  Credit | Content | Solution |
+|  | Date | Time & Location |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
 | Quizzes | NA | During tutorials | 5\% | | | 
 | Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
