@@ -70,14 +70,14 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Section | Session | Time | Location | TA | 
 |--- | --- | --- | --- | --- |
-| LEC0101 | 101 | Mon, 11am-12pm | TBD | Haochen  |
-| | 102 |  |  TBD |  Xiaochuan |
-| | 103 |  |   TBD  | Arturo |
-| | 104 |  |  TBD | Junhao |
-|LEC0201| 201 | Mon, 4pm-5pm | TBD | Luis |
-| | 202 | |  TBD | Haochen |
-| | 203 | | TBD | K.C. |
-| | 204 | | TBD | Alex |
+| LEC0101 | 101 | Mon, 11am-12pm | HA403 | Haochen  |
+| | 102 |  |  HS106 |  Xiaochuan |
+| | 103 |  |   MS3278  | Arturo |
+| | 104 |  |  MS4279 | Junhao |
+|LEC0201| 201 | Mon, 4pm-5pm | MS3278 | Luis |
+| | 202 | |  MS2173 | Haochen |
+| | 203 | | MS4279 | K.C. |
+| | 204 | | HS106 | Alex |
  
 ---
 
