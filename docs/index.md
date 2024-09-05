@@ -109,7 +109,7 @@ This is a preliminary schedule; it may change throughout the term.
 | | Dates	| Lecture Topic	| Lecture Slides	| Suggested Readings |
 | --- | --- | --- | --- | --- | 
 | Week 1 | Wed, Sep 4 | Course logistics <br /> Introduction to Statistical Learning  <br /> The bias-variance tradeoff |  [[Lec00.pdf](/lectures/lec0.pdf)],[[Lec01.pdf](/lectures/lec1.pdf)]  | ISL 1, 2.1 - 2.3   |
-| Week 2 | Mon, Sep 9 | Linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] |   [[Linear algebra & Probability review](/tutorials/review_alg_prob.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
+| Week 2 | Mon, Sep 9 | Linear regression | [[Lec02.pdf](/lectures/lec2.pdf)] |   [[Linear algebra & Probability review](/tutorials/review_alg_prob.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
 | |  | Tutorial 1 | [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)]   | |
 | | Wed, Sep 11 | Cross-validation <br /> Model selection under linear models | [[Lec03.pdf](/lectures/lec03.pdf)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
 
