@@ -44,7 +44,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | Instructor | email |  office |  office hours (OH) |  OH mode | 
 | --- | --- | --- |  --- | --- |
-| [Xin Bing](https://www.statistics.utoronto.ca/people/directories/all-faculty/xin-bing) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | Mon, 1pm-3pm  | TBA <!--[Zoom link](https://utoronto.zoom.us/j/89637295142)--> | 
+| [Xin Bing](https://www.statistics.utoronto.ca/people/directories/all-faculty/xin-bing) |  [xin.bing@utoronto.ca](mailto:xin.bing@utoronto.ca) | UY 9192 | Mon, 1pm-3pm  |  [Zoom link](https://utoronto.zoom.us/j/81581102645)  | 
 
 ### TAs
 
@@ -106,12 +106,17 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 This is a preliminary schedule; it may change throughout the term. 
 
-| Dates	| Lecture Topic	| Lecture Slides | Tutorial	| Suggested Readings |
-| --- | --- | --- | --- | --- |
-| Sep 4 | Course logistics <br /> Introduction to Statistical Learning  <br /> The bias-variance tradeoff |  [[Lec00.pdf](/lectures/lec0.pdf)],[[Lec01.pdf](/lectures/lec1.pdf)]  | No tutorial |  ISL 1, 2.1 - 2.3   |
+| | Dates	| Lecture Topic	| Lecture Slides	| Suggested Readings |
+| --- | --- | --- | --- | --- | 
+| Week 1 | Wed, Sep 4 | Course logistics <br /> Introduction to Statistical Learning  <br /> The bias-variance tradeoff |  [[Lec00.pdf](/lectures/lec0.pdf)],[[Lec01.pdf](/lectures/lec1.pdf)]  | ISL 1, 2.1 - 2.3   |
+| Week 2 | Mon, Sep 9 | Linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] |   [[Linear algebra & Probability review](/tutorials/review_alg_prob.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
+| |  | Tutorial 1 | [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)]   | |
+| | Wed, Sep 11 | Cross-validation <br /> Model selection under linear models | [[Lec03.pdf](/lectures/lec03.pdf)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
 
-<!--
-| Sep 9 (Mon) | Linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] | Sep 9,   [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)]   |  [[Linear algebra review](/tutorials/review_linear_algebra.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
+<!-- 
+| Week 3 | Mon, Sep 16 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
+| | | Tutorial 2| Sep 25, [[R code](/tutorials/tut02.R)] | |
+| | Wed, Sep 18 | Subset selection under linear models |  [[Lec04.pdf](/lectures/lec04.pdf)] | ISL 6.1.1,  6.1.2 |
 | Sep 11 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Sep 25, [[R code](/tutorials/tut02.R)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
 | Sep 16 (Mon) | Subset selection under linear models |  [[Lec04.pdf](/lectures/lec04.pdf)] | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | ISL 6.1.1,  6.1.2 |
 | Sep 18 | Regularized linear regression |  [[Lec05.pdf](/lectures/lec05.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.2, 6.4 <br /> ESL 7.10 |
