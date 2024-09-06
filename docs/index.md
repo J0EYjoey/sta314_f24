@@ -20,8 +20,8 @@ We will cover popular statistical methods for supervised and unsupervised learni
 - Homework 3 solution is available below. 
 - The last tutorial will be on Dec 4th. 
 - Homework 4 will be due on Nov 29th, 11:59pm. 
-- Midterm will be Oct 25th. We will have makeup classes on Oct 23rd. 
-- Homework 1 will be released at 11:59pm on Septmeber 20th via Crowdmark. -->
+- Midterm will be Oct 25th. We will have makeup classes on Oct 23rd. -->
+- The first tutorial starts on September 9th, Monday. We also have lectures on Sep 9th. 
 - The first lecture starts on September 4th, Wednesday.
   
 ---
