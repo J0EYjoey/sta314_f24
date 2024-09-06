@@ -126,7 +126,7 @@ This is a preliminary schedule; it may change throughout the term.
 | Week 3 | Mon, Sep 16 | Shringkage regression | <!-- [[Lec04.pdf](/lectures/lec04.pdf)] --> | ISL 6.2, 6.4 <br /> ESL 7.10  |
 | | | Tutorial 2| <!-- [[R code](/tutorials/tut02.R)] --> | |
 | | Wed, Sep 18 | Move beyond linearity | <!-- [[Lec04.pdf](/lectures/lec04.pdf)]--> | ISL 7.1-7.4, 7.6, 7.7  |
-| Week 4 | Mon, Sep 23 | Move beyond linearity | <!-- [[Lec06.pdf](/lectures/lec06.pdf)] --> | ISL 7.1-7.4, 7.6, 7.7  |
+| Week 4 | Mon, Sep 23 | Introduction to classification | <!-- [[Lec06.pdf](/lectures/lec06.pdf)] --> | ISL 4.1, 4.2  |
 | | | Tutorial 3| <!-- [[R code](/tutorials/tut02.R)] --> | | 
 | | Wed, Sep 25 | Midterm one | | |
 
