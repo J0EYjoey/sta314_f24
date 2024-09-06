@@ -53,9 +53,9 @@ We will cover popular statistical methods for supervised and unsupervised learni
 | LEC0101 | Haochen Song | Tue (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/81683760499) |  
 |  | Xiaochuan Shi | Mon (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/82036868816) |  
 |  | Jorge Arturo Esquivel Fuente  | Tue (11am-12am) | [Zoom link](https://utoronto.zoom.us/j/84836574590) | 
-|	 | Junhao Zhu |	Fri (9am-10am) | in-person |  
+|	 | Junhao Zhu |	Fri (9am-10am) | in-person, SS621 |  
 | LEC0201 | Liam Welsh	| Thu (9am-10am) |  [Zoom link](https://utoronto.zoom.us/j/82522806582)  |  
-|	 | Luis Sierra Muntan&eacute; |  Tue (10am-11am)	 | in-person |  
+|	 | Luis Sierra Muntan&eacute; |  Tue (10am-11am)	 | in-person, SS621 |  
 |	 | Konstantinos Christopher Tsiolis   | Thu (4pm-5pm) |  [Zoom link](https://utoronto.zoom.us/j/88132149228) |  
 |	 | Rafael Alexander Valencia Sanchez  | Thu (12:30pm-1:30pm)	| [Zoom link](https://utoronto.zoom.us/j/83303506489)  | 
 
