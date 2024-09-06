@@ -53,9 +53,9 @@ We will cover popular statistical methods for supervised and unsupervised learni
 | LEC0101 | Haochen Song | Tue (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/81683760499) |  
 |  | Xiaochuan Shi | Mon (5pm-6pm) | [Zoom link](https://utoronto.zoom.us/j/82036868816) |  
 |  | Jorge Arturo Esquivel Fuente  | Tue (11am-12am) | [Zoom link](https://utoronto.zoom.us/j/84836574590) | 
-|	 | Junhao Zhu |	Fri (9am-10am) | in-person |  
+|	 | Junhao Zhu |	Fri (9am-10am) | in-person, SS621 |  
 | LEC0201 | Liam Welsh	| Thu (9am-10am) |  [Zoom link](https://utoronto.zoom.us/j/82522806582)  |  
-|	 | Luis Sierra Muntan&eacute; |  Tue (10am-11am)	 | in-person |  
+|	 | Luis Sierra Muntan&eacute; |  Tue (10am-11am)	 | in-person, SS621 |  
 |	 | Konstantinos Christopher Tsiolis   | Thu (4pm-5pm) |  [Zoom link](https://utoronto.zoom.us/j/88132149228) |  
 |	 | Rafael Alexander Valencia Sanchez  | Thu (12:30pm-1:30pm)	| [Zoom link](https://utoronto.zoom.us/j/83303506489)  | 
 
@@ -92,10 +92,21 @@ We will cover popular statistical methods for supervised and unsupervised learni
 | Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | TBA | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Final exam | TBA | TBA |   25% | TBA | |
-| Course project | TBA | Throughout the semester | 20% | | |
+| Course project | TBA | Throughout the semester | 20% | TBA after midterm one | |
 
 <!--| [Homework 3](/hws/hw3/hw3.pdf) | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | [[Q1-Q3.pdf](/hws/hw3/hw3_solution_Q1_Q3.pdf)],[[Q4-Q5.pdf](/hws/hw3/hw3_solution_Q4Q5.pdf)] |
 | [Homework 4](/hws/hw4/hw4.pdf) | Nov 16, 12 AM | Nov 29, 11:59 PM  | 10% | Lec06-10 | [[sol-derivation](/hws/hw4/hw4_solution_derivation.pdf)], [[sol-coding](/hws/hw4/hw4_solution_coding.pdf)]  |-->
+
+---
+
+<br />
+
+## Practical problem sets
+
+| | Date | Solution |
+|---|---|---|
+|Problem set 1| | |
+|Problem set 2| | |
 
 ---
 
@@ -112,16 +123,14 @@ This is a preliminary schedule; it may change throughout the term.
 | Week 2 | Mon, Sep 9 | Linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] |   [[Linear algebra & Probability review](/tutorials/review_alg_prob.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
 | |  | Tutorial 1 | <!-- [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] -->   | |
 | | Wed, Sep 11 | Cross-validation <br /> Model selection under linear models | <!--[[Lec03.pdf](/lectures/lec03.pdf)]--> | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
+| Week 3 | Mon, Sep 16 | Shringkage regression | <!-- [[Lec04.pdf](/lectures/lec04.pdf)] --> | ISL 6.2, 6.4 <br /> ESL 7.10  |
+| | | Tutorial 2| <!-- [[R code](/tutorials/tut02.R)] --> | |
+| | Wed, Sep 18 | Move beyond linearity | <!-- [[Lec04.pdf](/lectures/lec04.pdf)]--> | ISL 7.1-7.4, 7.6, 7.7  |
+| Week 4 | Mon, Sep 23 | Move beyond linearity | <!-- [[Lec06.pdf](/lectures/lec06.pdf)] --> | ISL 7.1-7.4, 7.6, 7.7  |
+| | | Tutorial 3| <!-- [[R code](/tutorials/tut02.R)] --> | | 
+| | Wed, Sep 25 | Midterm one | | |
 
 <!-- 
-| Week 3 | Mon, Sep 16 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
-| | | Tutorial 2| Sep 25, [[R code](/tutorials/tut02.R)] | |
-| | Wed, Sep 18 | Subset selection under linear models |  [[Lec04.pdf](/lectures/lec04.pdf)] | ISL 6.1.1,  6.1.2 |
-| Sep 11 | Model selection under linear models, <br /> cross-validation | [[Lec03.pdf](/lectures/lec03.pdf)] | Sep 25, [[R code](/tutorials/tut02.R)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
-| Sep 16 (Mon) | Subset selection under linear models |  [[Lec04.pdf](/lectures/lec04.pdf)] | Oct 2, [[Rmd](/tutorials/TUT3.Rmd)] | ISL 6.1.1,  6.1.2 |
-| Sep 18 | Regularized linear regression |  [[Lec05.pdf](/lectures/lec05.pdf)] | No tutorial, Thanksgiving <br /> [[OLS vs Ridge](/tutorials/tut03.pdf)] (optional reading) |  ISL 6.2, 6.4 <br /> ESL 7.10 |
-| Sep 23 (Mon) | Move beyond linearity | [[Lec06.pdf](/lectures/lec06.pdf)] | [[Notes](/tutorials/tut03.pdf)], [[Extra notes](/tutorials/tut3_Note.pdf)] | ISL 7.1-7.4, 7.6, 7.7  |
-| Sep 25 | Midterm one | | | | 
 | Sep 30 (Mon) | Move beyond linearity | | | |
 | Oct 2  | Introduction to classification <br />  Logistic regression |  [[Lec07.pdf](/lectures/lec07.pdf)] | Oct 30, [[Rmd](/tutorials/tut04.Rmd)]  | ISL 4.1-4.6 <br /> ESL 4.3, 4.4 |
 | Oct 7 (Mon)  | Gradient descent|  [[Lec08.pdf](/lectures/lec08.pdf)]  | No tutorial | ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br /> PRML 4.1, 4.3 <br /> ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <br /> [[Multivariate calculus](/tutorials/notes_on_multivariable_calculus.pdf)] |
