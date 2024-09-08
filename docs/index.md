@@ -123,10 +123,10 @@ This is a preliminary schedule; it may change throughout the term.
 | 2 | Mon, Sep 9 | Linear regression | [[Lec02.pdf](/lectures/lec02.pdf)] |   [[Linear algebra & Probability](/tutorials/review_alg_prob.pdf)] <br />  ISL 3.1, 3.2, 3.3, 3.6 |
 | |  | Tutorial 1 (linear regression) | <!-- [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01.R)] -->   | ISL 3.6 |
 | | Wed, Sep 11 | Cross-validation <br /> Model selection under linear models | [[Lec03.pdf](/lectures/lec03.pdf)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
-| 3 | Mon, Sep 16 | Shringkage regression | <!-- [[Lec04.pdf](/lectures/lec04.pdf)] --> | ISL 6.2, 6.4 <br /> ESL 7.10  |
+| 3 | Mon, Sep 16 | Shringkage regression |  [[Lec04.pdf](/lectures/lec04.pdf)]  | ISL 6.2, 6.4 <br /> ESL 7.10  |
 | | | Tutorial 2 (cv, subset selection) | <!-- [[R code](/tutorials/tut02.R)] --> | ISL 5.3.1-5.3.3, 6.5.1 |
-| | Wed, Sep 18 | Move beyond linearity | <!-- [[Lec04.pdf](/lectures/lec04.pdf)]--> | ISL 7.1-7.4, 7.6, 7.7  |
-| 4 | Mon, Sep 23 | Introduction to classification | <!-- [[Lec06.pdf](/lectures/lec06.pdf)] --> | ISL 4.1, 4.2  |
+| | Wed, Sep 18 | Move beyond linearity |  [[Lec05.pdf](/lectures/lec04.pdf)] | ISL 7.1-7.4, 7.6, 7.7  |
+| 4 | Mon, Sep 23 | Introduction to classification | [[Lec06.pdf](/lectures/lec06.pdf)]  | ISL 4.1, 4.2  |
 | | | Tutorial 3 (Shrinkage regression) | <!-- [[R code](/tutorials/tut02.R)] --> | ISL 6.5.2 | 
 | | Wed, Sep 25 | **Midterm one** | | |
 
