@@ -103,10 +103,10 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Practical problem sets
 
-| | Date | Solution |
+| | File | Solution |
 |---|---|---|
-|Problem set 1| | |
-|Problem set 2| | |
+|Problem set 1| [[Problem set 1](/practical_sets/set1.pdf)] | |
+|Problem set 2| <!-- [[Problem set 2](/practical_sets/set2.pdf)]  --> | |
 
 ---
 
