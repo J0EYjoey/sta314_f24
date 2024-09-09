@@ -1,0 +1,204 @@
+---
+title: "tut01_coding"
+author: "STA314 teaching team"
+date: "2024-09-06"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Tutorial 1: Linear Regression
+
+```{r, message = FALSE}
+rm(list=ls())# remove all variables in memory
+## install.packages("...")
+library(MASS)
+library(ISLR)
+```
+
+For installation on Quarto, please consult: <https://quarto.org/docs/get-started/>
+
+## Simple Linear Regression
+
+### Basic intro with Boston housing dataset
+
+Data regarding city of Boston: use `?Boston` for more information:
+
+```{r}
+# ?Boston
+names(Boston) # what columns (predictors) we have
+```
+
+-   `medv` is median value of owner-occupied homes in thousands
+
+-   `lstat` is lower status of the population
+
+```{r}
+#lm.fit=lm(medv~lstat) 
+```
+
+This gives us an error because we did not specify the data set #need to specify data set, hover over function to see arguments, to solve it:
+
+1.  we can specify the data set we are using:
+
+```{r}
+lm.fit=lm(medv~lstat,data=Boston) 
+```
+
+2.  Or we could attach the data set:
+
+```{r}
+attach(Boston)
+lm.fit=lm(medv~lstat)
+# note that if the data is attached, there is no issue using the lm to fit the model directly.
+```
+
+We could take a quick look at the fitted model:
+
+```{r}
+lm.fit
+```
+
+Or a slightly more detailed summary:
+
+```{r}
+summary(lm.fit)
+```
+
+Note: Make sure you are able to interpret the results here, what does each value tell you?
+
+To check specifically on coefficients, there are two ways that returns the same output:
+
+```{r}
+coef(lm.fit)
+```
+
+```{r}
+lm.fit$coefficients
+```
+
+To access the fitted values of the model (the values of the dependent variable predicted by the model):
+
+```{r}
+# lm.fit$fitted.values this is a bit too long...
+head(lm.fit$fitted.values) # this shows the first a few elements of the fitted value list
+```
+
+For more information on the input and output of the model, use:
+
+```{r}
+?lm  
+```
+
+### Confidence Interval with the fitted model
+
+1.  we can check the confidence interval for regression coefficient:
+
+```{r}
+confint(lm.fit)
+```
+
+2.  the confidence interval for fitted values (the values of the dependent variable predicted by the model):
+
+```{r}
+predict(lm.fit,data.frame(lstat=(c(5,10,15))), interval="confidence")
+```
+
+3.  Similarly, the prediction interval for Y:
+
+```{r}
+predict(lm.fit,data.frame(lstat=(c(5,10,15))), interval="prediction")
+```
+
+### Graphical Interpretation of the linear model:
+
+```{r}
+plot(lstat,medv)
+abline(lm.fit) #add our estimated model
+abline(lm.fit,lwd=3)  #lwd represents the line width
+abline(lm.fit,lwd=3,col="red")
+```
+
+**Discussion:** what do you notice about the data and/or the fit?
+
+Meanwhile, we could also change the design of the plot:
+
+```{r}
+plot(lstat,medv,col="red")
+plot(lstat,medv,pch=20) #plot using different symbols
+plot(lstat,medv,pch="+")
+plot(1:20,1:20,pch=1:20) #what the different sympols are in pch
+
+```
+
+Additionally, for multiple plots in one graph:
+
+```{r}
+par(mfrow=c(2,2)) # create 2 by 2 plot
+plot(lm.fit) #very detailed figures for model fit
+plot(predict(lm.fit), residuals(lm.fit))
+plot(predict(lm.fit), rstudent(lm.fit))  #studentized residuals
+```
+
+## Multi-variate Linear Regression:
+
+Using the same Boston Housing dataset, let's include another variable `age` into the equation:
+
+```{r}
+lm.fit=lm(medv~lstat+age,data=Boston)
+summary(lm.fit)
+```
+
+We could also include all the variables in the data:
+
+```{r}
+lm.fit=lm(medv~.,data=Boston) #all covariates
+summary(lm.fit)
+```
+
+What if we want to exclude some of the variables, for example excluding `age`?
+
+```{r}
+lm.fit1=lm(medv~.-age,data=Boston) #use all predictors except age
+summary(lm.fit1)
+```
+
+### Interaction Terms
+
+Please review the interpretation of coefficients when using interaction terms from the slides:
+
+```{r}
+#automatically include the main effect lstat and age
+summary(lm(medv~lstat*age,data=Boston))
+
+#an alternative approach
+summary(lm(medv~lstat+age+lstat:age,data=Boston)) 
+```
+
+### Qualitative Predictors
+
+Note the change now that we have non-continuous predictors, what do these represent?
+
+Check out the `Carseats` data set in ISLR: <https://rdrr.io/cran/ISLR/man/Carseats.html>
+
+```{r}
+# ?Carseats
+names(Carseats)
+```
+
+```{r}
+summary(Carseats)
+```
+
+```{r}
+lm.fit=lm(Sales~.+Income:Advertising+Price:Age,data=Carseats)
+summary(lm.fit)
+```
+
+## Optional: explain usage of contrasts()
+
+Feel free to check out the usage at:
+
+<https://cran.r-project.org/web/packages/contrast/vignettes/contrast.html>
