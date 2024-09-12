@@ -124,16 +124,16 @@ This is a preliminary schedule; it may change throughout the term.
 | |  | Tutorial 1 (linear regression) | [[Notes](/tutorials/tut01.pdf)], [[R code](/tutorials/tut01_coding.Rmd)], [[Python code](/tutorials/tut01_coding.ipynb)]   | ISL 3.6 |
 | | Wed, Sep 11 | Cross-validation <br /> Model selection under linear models | [[Lec03.pdf](/lectures/lec03.pdf)] | ISL 5.1, 6.1.1,  6.1.2, 6.1.3 <br /> ESL 7.10 |
 | 3 | Mon, Sep 16 | Shringkage regression |  [[Lec04.pdf](/lectures/lec04.pdf)]  | ISL 6.2, 6.4 <br /> ESL 7.10  |
-| | | Tutorial 2 (cv, subset selection) | <!-- [[R code](/tutorials/tut02.R)] --> | ISL 5.3.1-5.3.3, 6.5.1 |
+| | | Tutorial 2 (cv, subset selection) | [[Notes](/tutorials/tut02.pdf)], [[R code](/tutorials/tut02_coding.Rmd)], [[Python code](/tutorials/tut02_coding.ipynb)] | ISL 5.3.1-5.3.3, 6.5.1 |
 | | Wed, Sep 18 | Move beyond linearity |  [[Lec05.pdf](/lectures/lec04.pdf)] | ISL 7.1-7.4, 7.6, 7.7  |
 | 4 | Mon, Sep 23 | Introduction to classification | [[Lec06.pdf](/lectures/lec06.pdf)]  | ISL 4.1, 4.2  |
 | | | Tutorial 3 (Shrinkage regression) | <!-- [[R code](/tutorials/tut02.R)] --> | ISL 6.5.2 | 
 | | Wed, Sep 25 | **Midterm one** | | |
-
-<!-- 
 | 5 | Mon, Sep 30 | Logistic regression |  [[Lec07.pdf](/lectures/lec07.pdf)] | ISL 4.3  <br /> ESL 4.4 |
 | | | Tutorial 4 (Move beyond linearity) | | ISL 7.8 |
-| | Wed, Oct 2  | Gradient descent <br /> Multi-class logistic regression | [[Lec08.pdf](/lectures/lec08.pdf)] | ISL 4.4 <br /> ESL 4.3 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <br /> [[Multivariate calculus](/tutorials/review_multi_calculus.pdf)] |
+| | Wed, Oct 2  | Gradient descent <br /> Multi-class logistic regression | [[Lec08.pdf](/lectures/lec08.pdf)] | ISL 4.4 <br /> ESL 4.3 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
+
+<!-- 
 |  6 | Mon, Oct 7  | Discriminant analysis | [[Lec09.pdf](/lectures/lec09.pdf)] | ISL 4.4 <br /> ESL 4.3 |
 | | | Tutorial 5 (LR, DA, KNN) |  | ISL 4.7 |
 | | Wed, Oct 9 | Support vector machine | [[Lec10.pdf](/lectures/lec10.pdf)]|  ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br />  ConvOpt 2.5, 5.1 - 5.5  | 
