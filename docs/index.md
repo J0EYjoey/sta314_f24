@@ -105,7 +105,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 | | File | Solution |
 |---|---|---|
-|Problem set 1| [[Problem set 1](/practical_sets/set1.pdf)] | |
+|Problem set 1| [[Problem set 1](/practical_sets/set1.pdf)] |[[Sol:Q1-Q4](/practical_sets/set1_sol_Q1-Q4.pdf)], [[Sol:Q5](/practical_sets/set1_sol_Q5.pdf)] |
 |Problem set 2| <!-- [[Problem set 2](/practical_sets/set2.pdf)]  --> | |
 
 ---
