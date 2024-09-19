@@ -15,11 +15,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
-<!-- 
-- Homework 4 solution is available below. 
-- Homework 3 solution is available below. 
-- The last tutorial will be on Dec 4th. 
-- Homework 4 will be due on Nov 29th, 11:59pm. -->
+- Both the second problem set (with solution) and the midterm of last year are out.
 - The first problem set is out. Its solution is to be posted in 3 days. 
 - The first tutorial starts on September 9th, Monday. We also have lectures on Sep 9th. 
 - The first lecture starts on September 4th, Wednesday.
