@@ -133,9 +133,9 @@ This is a preliminary schedule; it may change throughout the term.
 | | Wed, Oct 2  | Logistic regression <br /> Gradient descent  | [[Lec07.pdf](/lectures/lec07.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
 |  6 | Mon, Oct 7  | Multi-class logistic regression | [[Lec08.pdf](/lectures/lec08.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3,4.4 |
 | | | Tutorial 5 (LR, DA, KNN) |  | ISL 4.7 |
-| | Wed, Oct 9 | Discriminant analysis <br /> Support vector machine | [[Lec09.pdf](/lectures/lec09.pdf)], [[Lec10.pdf](/lectures/lec10.pdf)]|  ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br />  ConvOpt 2.5, 5.1 - 5.5  | 
+| | Wed, Oct 9 | Discriminant analysis <br /> Support vector machine | <!-- [[Lec09.pdf](/lectures/lec09.pdf)], [[Lec10.pdf](/lectures/lec10.pdf)] --> |  ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br />  ConvOpt 2.5, 5.1 - 5.5  | 
 | 7 | Mon, Oct 14 | Thanksgiving, no class / tutorial | |
-| | Wed, Oct 16 | Decision tree | [[Lec11.pdf](/lectures/lec11.pdf)]  | ISL 8.1  <br /> ESL 9.2  |
+| | Wed, Oct 16 | Decision tree | <!--[[Lec11.pdf](/lectures/lec11.pdf)]-->  | ISL 8.1  <br /> ESL 9.2  |
 | 8 | Mon, Oct 21 | no class / tutorial | |
 | | Wed, Oct 23 | **Midterm two** | | | 
 
