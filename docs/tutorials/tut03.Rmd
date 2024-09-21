@@ -1,0 +1,125 @@
+---
+title: "Tutorial 3"
+author: "TA team"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Chapter 6.6 Lab 2: perform ridge regression and the Lasso
+
+We first create design matrix 'X' and the predicted variable 'y', for later use.
+
+```{r}
+library(ISLR)
+Hitters <- na.omit(Hitters)  # remove the NAs
+
+x <- model.matrix(Salary~., Hitters)[,-1]  #remove the intercept
+y <- Hitters$Salary
+```
+
+## Ridge Regression
+
+```{r}
+library(glmnet)  # the package for regularized linear regression
+```
+
+#### Perform ridge regression with different 'lambda' penalty
+
+```{r}
+grid <- 10^seq(10,-2,length=100)   #create a grid for \lambda
+ridge.mod <- glmnet(x,y,alpha=0,lambda=grid) #alpha=0 is the ridge penalty, alpha=1 is the lasso penalty
+```
+
+Look at result shape (100 models, each with 20 parameters)
+
+```{r}
+dim(coef(ridge.mod))
+```
+
+#### Result comparison
+
+Look at the 50th model
+
+```{r}
+ridge.mod$lambda[50] #the lambda value in the 50th model
+```
+
+```{r}
+coef(ridge.mod)[,50]
+```
+
+```{r}
+sqrt(sum(coef(ridge.mod)[-1,50]^2))  #calculuate L2 norm of beta
+```
+
+Look at the 60th model
+
+```{r}
+ridge.mod$lambda[60]
+```
+
+```{r}
+coef(ridge.mod)[,60]
+```
+
+```{r}
+sqrt(sum(coef(ridge.mod)[-1,60]^2)) #As we decrease lambda, L_2 norm of beta increase 
+```
+
+#### Summary / Simplified ridge regression process
+
+In practice, we just need to do the following. First we fit model with different lambdas
+
+```{r}
+set.seed(1)
+cv.out <- cv.glmnet(x,y,alpha=0) #10 fold cross validation, you can also add lambda=grid
+bestlam <- cv.out$lambda.min #get best lambda
+bestlam
+```
+
+Then we look at the best model
+
+```{r}
+ridge.mod <- glmnet(x,y,alpha=0,lambda=bestlam) #get the model under the best lambda value
+coef(ridge.mod)[,1] #look at coefficients
+
+pred.ridge <- predict(ridge.mod, s = bestlam, newx = x) # get predictions
+```
+
+#### The Lasso
+
+Similar process: first we fit model with different lambdas
+
+```{r}
+set.seed(1)
+cv.out <- cv.glmnet(x,y,alpha=1) #10 fold cross validation
+bestlam <- cv.out$lambda.min
+bestlam
+```
+
+Then we look at the best model
+
+```{r}
+lasso.mod <- glmnet(x,y,alpha=1,lambda=bestlam) #get the model under the best lambda value
+lasso.coef <- coef(lasso.mod)[,1]
+lasso.coef[lasso.coef!=0]
+```
+
+Look at predictions
+
+```{r}
+pred.lasso <- predict(lasso.mod, s = bestlam, newx = x)
+pred.lasso
+```
+
+Look at the prediction for a specific person. For example: '-Wade Boggs'
+
+```{r}
+index_boggs <- which(names(pred.lasso[,1])=="-Wade Boggs")
+
+c(pred.lasso[index_boggs], pred.ridge[index_boggs])
+```
