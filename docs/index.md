@@ -126,14 +126,14 @@ This is a preliminary schedule; it may change throughout the term.
 | | | Tutorial 2 (cv, subset selection) | [[Notes](/tutorials/tut02.pdf)], [[R code](/tutorials/tut02_coding.Rmd)], [[Python code](/tutorials/tut02_coding.ipynb)] | ISL 5.3.1-5.3.3, 6.5.1 |
 | | Wed, Sep 18 | Move beyond linearity |  [[Lec05.pdf](/lectures/lec05.pdf)] | ISL 7.1-7.4, 7.6, 7.7  |
 | 4 | Mon, Sep 23 | Introduction to classification | [[Lec06.pdf](/lectures/lec06.pdf)]  | ISL 4.1, 4.2  |
-| | | Tutorial 3 (Shrinkage regression) | <!-- [[R code](/tutorials/tut02.R)] --> | ISL 6.5.2 | 
+| | | Tutorial 3 (Shrinkage regression) | <!-- [[Notes](/tutorials/tut03.pdf)], [[R code](/tutorials/tut03_coding.Rmd)], [[Python code](/tutorials/tut03_coding.ipynb)] --> | ISL 6.5.2 | 
 | | Wed, Sep 25 | **Midterm one** | | |
 | 5 | Mon, Sep 30 | No class |   |  |
 | | | Tutorial 4 (Move beyond linearity) | | ISL 7.8 |
-| | Wed, Oct 2  | Logistic regression <br /> Gradient descent  | [[Lec07.pdf](/lectures/lec07.pdf)], [[Lec08.pdf](/lectures/lec08.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
-|  6 | Mon, Oct 7  | Multi-class logistic regression <br /> Discriminant analysis | [[Lec09.pdf](/lectures/lec09.pdf)] | ISL 4.4 <br /> ESL 4.3 |
+| | Wed, Oct 2  | Logistic regression <br /> Gradient descent  | [[Lec07.pdf](/lectures/lec07.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
+|  6 | Mon, Oct 7  | Multi-class logistic regression | [[Lec08.pdf](/lectures/lec08.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3,4.4 |
 | | | Tutorial 5 (LR, DA, KNN) |  | ISL 4.7 |
-| | Wed, Oct 9 | Support vector machine | [[Lec10.pdf](/lectures/lec10.pdf)]|  ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br />  ConvOpt 2.5, 5.1 - 5.5  | 
+| | Wed, Oct 9 | Discriminant analysis <br /> Support vector machine | [[Lec09.pdf](/lectures/lec09.pdf)], [[Lec10.pdf](/lectures/lec10.pdf)]|  ISL 9.1-9.5 <br /> ESL 12.1, 12.2 <br />  ConvOpt 2.5, 5.1 - 5.5  | 
 | 7 | Mon, Oct 14 | Thanksgiving, no class / tutorial | |
 | | Wed, Oct 16 | Decision tree | [[Lec10.pdf](/lectures/lec10.pdf)]  | ISL 8.1  <br /> ESL 9.2  |
 | 8 | Mon, Oct 21 | no class / tutorial | |
