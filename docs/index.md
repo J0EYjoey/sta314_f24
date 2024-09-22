@@ -103,7 +103,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |---|---|---|
 |Problem set 1| [[Problem set 1](/practical_sets/set1.pdf)] |[[Sol:Q1-Q4](/practical_sets/set1_sol_Q1-Q4.pdf)], [[Sol:Q5](/practical_sets/set1_sol_Q5.pdf)] |
 |Problem set 2| [[Problem set 2](/practical_sets/set2.pdf)] | [[Sol:Q1](/practical_sets/set2_sol_Q1.pdf)], [[Sol:Q2-Q4](/practical_sets/set2_sol_Q2-Q4.pdf)] |
-|Midterm 23Fall | [[Midterm 23Fall](/practical_sets/midterm23fall.pdf)] | |
+|Midterm 23Fall | [[Midterm 23Fall](/practical_sets/midterm23fall.pdf)] | Not available |
 |Problem set 3| <!-- [[Problem set 3](/practical_sets/set3.pdf)]--> | |
 |Problem set 4| <!-- [[Problem set 4](/practical_sets/set4.pdf)]--> | |
 
