@@ -15,11 +15,10 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
+- No class on Sep 30th. We do have tutorials on that day. 
 - The first midterm is on Wednesday, Sep 25th. 
 - Both the second problem set (with solution) and the midterm of last year are out.
-- The first problem set is out. Its solution is to be posted in 3 days. 
-- The first tutorial starts on September 9th, Monday. We also have lectures on Sep 9th. 
-- The first lecture starts on September 4th, Wednesday.
+- The first problem set is out. Its solution is to be posted in 3 days.  
   
 ---
 <br />
@@ -130,7 +129,7 @@ This is a preliminary schedule; it may change throughout the term.
 | | | Tutorial 3 (Shrinkage regression) |   [[Notes](/tutorials/tut03.pdf)],  [[R code](/tutorials/tut03_coding.Rmd)], [[Python code](/tutorials/tut03_coding.ipynb)]  | ISL 6.5.2 | 
 | | Wed, Sep 25 | **Midterm one** | | |
 | 5 | Mon, Sep 30 | No class |   |  |
-| | | Tutorial 4 (Move beyond linearity) | | ISL 7.8 |
+| | | Tutorial 4 (Move beyond linearity) |  [[R code](/tutorials/tut04_coding.Rmd)], [[Python code](/tutorials/tut04_coding.ipynb)] | ISL 7.8 |
 | | Wed, Oct 2  | Logistic regression <br /> Gradient descent  | [[Lec07.pdf](/lectures/lec07.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
 |  6 | Mon, Oct 7  | Multi-class logistic regression | [[Lec08.pdf](/lectures/lec08.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3,4.4 |
 | | | Tutorial 5 (LR, DA, KNN) |  | ISL 4.7 |
