@@ -130,8 +130,8 @@ This is a preliminary schedule; it may change throughout the term.
 | | Wed, Sep 25 | **Midterm one** | | |
 | 5 | Mon, Sep 30 | No class |   |  |
 | | | Tutorial 4 (Move beyond linearity) |  [[R code](/tutorials/tut04_coding.Rmd)], [[Python code](/tutorials/tut04_coding.ipynb)] | ISL 7.8 |
-| | Wed, Oct 2  | Review of midterm one <br> Logistic regression  | [[Lec07.pdf](/lectures/lec07.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4  |
-|  6 | Mon, Oct 7  | Gradient descent   | [[Lec08.pdf](/lectures/lec08.pdf)] | PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
+| | Wed, Oct 2  | Review of midterm one <br> Logistic regression  | [[Lec07.pdf](/lectures/lec-LR-binary.pdf)] | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4  |
+|  6 | Mon, Oct 7  | Gradient descent   | [[Lec08.pdf](/lectures/lec-GD.pdf)] | PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
 | | | Tutorial 5 (TBA) |  | ISL 4.7 |
 | | Wed, Oct 9 | Gradient descent <br> Multi-class logistic regression  |  |  ISL 4.3, 4.4 <br /> ESL 4.3,4.4 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 |
 | 7 | Mon, Oct 14 | Thanksgiving, no class / tutorial | |
