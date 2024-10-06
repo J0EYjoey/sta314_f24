@@ -1,0 +1,144 @@
+---
+title: "Tutorial 05"
+author: "TA team"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+## Chapter 4.6 Lab: Logistic Regression demo.
+
+Logistic regression does not converge under separation of the data, as shown in below coding:
+
+That is, when the data points for the two categories are significantly far from each other, the logistic regression line does not converge during the training process.
+
+In this case, the data points for the two categories (0s and 1s) are so far apart that the logistic regression algorithm cannot find a set of parameters that lead to meaningful fit. This is precisely the issue of perfect separation. This is how the warning occurred.
+
+```{r}
+y0 <- rep(0,10)
+y1 <- rep(1,10)
+y <- c(y0, y1)  # for running glm for logistic regression, we must encode y by 0 or 1. (two categories of the data, for more than two categories use multi-nomial logistc regression)
+x0 <- rnorm(10)  # this follows Normal(0,1)
+x1 <- rnorm(10, 5, 1) # this follows Normal(5,1) to set x0 and x1 far from each other
+x <- c(x0, x1)
+y
+x
+plot(x0, y0, ylim = range(y), xlim = range(x), col = "blue")
+points(x1, y1, col="red") # red and blue points are separated
+
+fit=glm(y~x,family=binomial)
+summary(fit)
+warnings() # note the warning messages we get, as mentioned before a perfect seperation happens
+predict(fit,type="response")
+
+seq=seq(min(x) - 0.1, max(x) + 0.1, by = 0.1)
+prediction <- predict(fit, list(x=seq), type="response")
+lines(seq, prediction, col = "green")
+```
+
+## Apply Logistic regression to Stock Market Data
+
+Let's first look at the stock data:
+
+```{r}
+library(ISLR)
+?Smarket
+names(Smarket)
+dim(Smarket)
+summary(Smarket)
+pairs(Smarket)
+```
+
+Notice the last variable is :\
+
+```{r}
+head(Smarket[,9])
+```
+
+`Direction`
+
+:   A factor with levels `Down` and `Up` indicating whether the market had a positive or negative return on a given day
+
+We will use this Direction as response variable, we will be fitting a model to predict the stock price trend for the next day given our independent variables, Lag1 to Lag5 and Volume.
+
+For logistic we want to use numeric variables
+
+```{r}
+# cor(Smarket)   
+# above function won't work as direction is not numeric 
+
+```
+
+```{r}
+cor(Smarket[,-9])
+attach(Smarket) # the correlation between Year and Volume is 0.54! 
+plot(Volume)  # let's take a closer look at this variable
+```
+
+Let's fit the model with Lag1, Lag2, Lag3, Lag4, Lag5 and Volume:
+
+```{r}
+glm.fit <- glm(Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume, 
+               data = Smarket, family = binomial)
+summary(glm.fit)
+coef(glm.fit)
+glm.fit$coefficients
+summary(glm.fit)$coef
+summary(glm.fit)$coef[,4]
+```
+
+and we can take a look at the corresponding prediction value:
+
+```{r}
+glm.probs <- predict(glm.fit, type = "response") # predict on the whole dataset
+# glm.probs[1:10] 
+# above function can look at the first 10 predictions, this is the probability of stock price going up the next day, feel free to uncode it to show students.
+contrasts(Direction) # this function tell you how Direction is coded, Down as in 0 and Up as in 1
+
+glm.pred <- rep("Down", nrow(Smarket)) 
+glm.pred[glm.probs > 0.5] = "Up" # classify our probability
+table(glm.pred, Direction) # and contrast a table here
+# (507+145)/1250  
+paste('Correct prediction rate is', mean(glm.pred == Direction)*100, '%') 
+# percentage of correct predictions for the training samples
+
+```
+
+Notice that this is only 2.16% better than random guessing......
+
+Let's further look into a bit of train-test split:
+
+we will use the data before 2005 to train the model and test the fitted model by the data after 2005.
+
+```{r}
+train <- (Year < 2005) # split data into training and testing data
+test <- Smarket[!train, ]  # test data
+dim(test) # 252 * 9 for the testing data
+Direction.test <- Direction[!train] # test data directions
+
+# fit logistic regressioon on the training data
+glm.fit <- glm(Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + Volume,
+               data = Smarket, family = binomial, subset = train)
+glm.probs <- predict(glm.fit, test, type="response")
+glm.pred <- rep("Down", sum(!train))
+glm.pred[glm.probs > 0.5] <- "Up"
+table(glm.pred, Direction.test)
+paste('Correct prediction rate is', mean(glm.pred == Direction.test))
+
+```
+
+notice that at this point it is even worse than random guessing....
+
+Let's try to fit on a slightly smaller dimension, by using just Lag1 and Lag2:
+
+```{r}
+glm.fit <- glm(Direction ~ Lag1 + Lag2, data = Smarket, family = binomial,
+               subset = train)
+glm.probs <- predict(glm.fit, test, type="response")
+glm.pred <- rep("Down", sum(!train))
+glm.pred[glm.probs > 0.5] = "Up"
+table(glm.pred,Direction.test)
+paste('Correct prediction rate is', mean(glm.pred == Direction.test)*100, '%')
+```
+
+a bit better in terms 5%. How to improve prediction accuracy? How about considering adding more predictors? An exercise to try.
+ 
