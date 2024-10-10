@@ -105,7 +105,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |Problem set 2| [[Problem set 2](/practical_sets/set2.pdf)] | [[Sol:Q1](/practical_sets/set2_sol_Q1.pdf)], [[Sol:Q2-Q4](/practical_sets/set2_sol_Q2-Q4.pdf)] |
 |Midterm 23Fall | [[Midterm 23Fall](/practical_sets/midterm23fall.pdf)] | Not available |
 |Problem set 3|   [[Problem set 3](/practical_sets/set3.pdf)]  |  [[Sol:Q1-Q3](/practical_sets/set3_sol_Q1-Q3.pdf)], [[Sol:Q4Q5](/practical_sets/set3_sol_Q4Q5.pdf)]  |
-|Problem set 4| [[Problem set 4](/practical_sets/set4.pdf)], [[Q2_starter.zip](/practical_sets/set4_Q2_starter.zip)],  [[Q3_starter.zip](/practical_sets/set4_Q3_starter.zip)]  | |
+|Problem set 4| [[Problem set 4](/practical_sets/set4.pdf)], [[Q2_starter.zip](/practical_sets/set4_Q2_starter.zip)],  [[Q3_starter.zip](/practical_sets/set4_Q3_starter.zip)]  | [[Sol-derivation](/practical_sets/set4_sol_derivation.pdf)], [[Sol-coding](/practical_sets/set4_sol_coding.pdf)] |
 |Final 23Fall | [[Final 23Fall](/practical_sets/final23fall.pdf)] | [[Final 23Fall_sol](/practical_sets/final23fall-sol.pdf)] |
 
 ---
