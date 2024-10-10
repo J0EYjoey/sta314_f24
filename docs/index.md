@@ -85,7 +85,7 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |  | Date | Time & Location |  Credit | Content | Solution |
 |---|---|---|---|---| --- |
 | Quizzes | NA | During tutorials | 5% | | | 
-| Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | Weeks 1-4 |<!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
+| Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | Weeks 1-4 | [[sol-101.pdf](/tests/midterm1-101-sol.pdf)] <br> [[sol-201.pdf](/tests/midterm1-201-sol.pdf)]  |
 | Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | Weeks 1-7 | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
 | Final exam | TBA | TBA |   25% | Weeks 1-12 | |
 | Course project | Sep 26, 11:59pm  |  Group sign-up: by Nov 8, 11:59pm, Quercus <br /> Prediction submission: by Dec 6, 11:59pm, Kaggle <br /> Report due: Dec 8, 11:59pm, Quercus | 20% | [[Documentation](https://q.utoronto.ca/courses/354759/files/33406865?wrap=1)] | |
@@ -105,7 +105,8 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |Problem set 2| [[Problem set 2](/practical_sets/set2.pdf)] | [[Sol:Q1](/practical_sets/set2_sol_Q1.pdf)], [[Sol:Q2-Q4](/practical_sets/set2_sol_Q2-Q4.pdf)] |
 |Midterm 23Fall | [[Midterm 23Fall](/practical_sets/midterm23fall.pdf)] | Not available |
 |Problem set 3|   [[Problem set 3](/practical_sets/set3.pdf)]  |  [[Sol:Q1-Q3](/practical_sets/set3_sol_Q1-Q3.pdf)], [[Sol:Q4Q5](/practical_sets/set3_sol_Q4Q5.pdf)]  |
-|Problem set 4| <!-- [[Problem set 4](/practical_sets/set4.pdf)]--> | |
+|Problem set 4| [[Problem set 4](/practical_sets/set4.pdf)], [[Q2_starter.zip](/practical_sets/set4_Q2_starter.zip)],  [[Q3_starter.zip](/practical_sets/set4_Q3_starter.zip)]  | |
+|Final 23Fall | [[Final 23Fall](/practical_sets/final23fall.pdf)] | [[Final 23Fall_sol](/practical_sets/final23fall-sol.pdf)] |
 
 ---
 
