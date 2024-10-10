@@ -15,10 +15,10 @@ We will cover popular statistical methods for supervised and unsupervised learni
 
 ## Annoucement
 
+- The grades of midterm one will be posted on Oct 10th. You can also find the solution key to midterm one on the course website. 
 - No class on Sep 30th. We do have tutorials on that day. 
 - The first midterm is on Wednesday, Sep 25th. 
-- Both the second problem set (with solution) and the midterm of last year are out.
-- The first problem set is out. Its solution is to be posted in 3 days.  
+- Both the second problem set (with solution) and the midterm of last year are out. 
   
 ---
 <br />
@@ -133,9 +133,9 @@ This is a preliminary schedule; it may change throughout the term.
 | | Wed, Oct 2  | Review of midterm one   |  | |
 |  6 | Mon, Oct 7  | Logistic regression  | [[Lec07.pdf](/lectures/lec-LR-binary.pdf)]  | ISL 4.3, 4.4 <br /> ESL 4.3, 4.4   |
 | | | Tutorial 5 (Problem set 3, LR) | [[Notes](/tutorials/tut05.pdf)],  [[R code](/tutorials/tut05_coding.Rmd)], [[Python code](/tutorials/tut05_coding.ipynb)] | ISL 4.7 |
-| | Wed, Oct 9 | Gradient descent <br> Multi-class logistic regression  | [[Lec08-GD.pdf](/lectures/lec-GD.pdf)], [[Lec08-LR.pdf](/lectures/lec-LR-multi.pdf)] |  ISL 4.3, 4.4 <br /> ESL 4.3,4.4 <br /> PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
+| | Wed, Oct 9 | Gradient descent   | [[Lec08-GD.pdf](/lectures/lec-GD.pdf)] |   PRML 4.1, 4.3 <br />  ConvOpt 2.1-2.3, 3.1, 3.2, 4.1, 4.2 <!--[[Multivariate calculus](/tutorials/review_multi_calculus.pdf)]--> |
 | 7 | Mon, Oct 14 | Thanksgiving, no class / tutorial | |
-| | Wed, Oct 16 |  Discriminant analysis |  [[Lec09.pdf](/lectures/lec-DA.pdf)] |  ISL 9.1-9.5 <br /> ESL 12.1, 12.2 | 
+| | Wed, Oct 16 |   Multi-class logistic regression <br> Discriminant analysis |  [[Lec09-LR.pdf](/lectures/lec-LR-multi.pdf)], [[Lec09-DA.pdf](/lectures/lec-DA.pdf)] |  ISL 4.3-4.4, 9.1-9.5 <br /> ESL 4.3-4.4, 12.1, 12.2 | 
 | 8 | Mon, Oct 21 | No class | | |
 |  | | Tutorial 6 (TBA) | | |
 | | Wed, Oct 23 | **Midterm two** | | | 
