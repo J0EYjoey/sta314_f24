@@ -138,7 +138,7 @@ This is a preliminary schedule; it may change throughout the term.
 | 7 | Mon, Oct 14 | Thanksgiving, no class / tutorial | |
 | | Wed, Oct 16 |   Multi-class logistic regression <br> Discriminant analysis |  [[Lec09-LR.pdf](/lectures/lec-LR-multi.pdf)], [[Lec09-DA.pdf](/lectures/lec-DA.pdf)] |  ISL 4.3-4.4, 9.1-9.5 <br /> ESL 4.3-4.4, 12.1, 12.2 | 
 | 8 | Mon, Oct 21 | No class | | |
-|  | | Tutorial 6 (TBA) | | |
+|  | | Tutorial 6 (Review on MLE and GD) | [[Notes](/tutorials/tut06_note.pdf)] | |
 | | Wed, Oct 23 | **Midterm two** | | | 
 
 <!-- 
