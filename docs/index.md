@@ -86,8 +86,8 @@ We will cover popular statistical methods for supervised and unsupervised learni
 |---|---|---|---|---| --- |
 | Quizzes | NA | During tutorials | 5% | | | 
 | Midterm one | Sep 25 | LEC0101: 11am-1pm, EX100   <br> LEC0201: 3pm-5pm, EX100  | 25% | Weeks 1-4 | [[sol-101.pdf](/tests/midterm1-101-sol.pdf)] <br> [[sol-201.pdf](/tests/midterm1-201-sol.pdf)]  |
-| Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | Weeks 1-7 | <!--[[sol-101.pdf](/hws/midterm/midterm-101-sol.pdf)] <br> [[sol-201.pdf](/hws/midterm/midterm-201-sol.pdf)]--> |
-| Final exam | TBA | TBA |   25% | Weeks 1-12 | |
+| Midterm two | Oct 23 | LEC0101: 11am-1pm, EX200    <br> LEC0201: 3pm-5pm, EX100  | 25% | Weeks 1-7 | <!--[[sol-101.pdf](/tests/midterm2-101-sol.pdf)] <br> [[sol-201.pdf](/tests/midterm2-201-sol.pdf)]--> |
+| Final exam | Dec 14 | ALL (A - WANG,J): 9am-11am, MS 2158	<br>  ALL (WANG,R - ZZ):  9am-11am, MS 3154 <br>  Regular Deferred:  9am-11am, MS 3154 |   25% | Weeks 1-12 | |
 | Course project | Sep 26, 11:59pm  |  Group sign-up: by Nov 8, 11:59pm, Quercus <br /> Prediction submission: by Dec 6, 11:59pm, Kaggle <br /> Report due: Dec 8, 11:59pm, Quercus | 20% | [[Documentation](https://q.utoronto.ca/courses/354759/files/33406865?wrap=1)] | |
 
 <!--| [Homework 3](/hws/hw3/hw3.pdf) | Nov 2, 12 AM | Nov 19, 11:59 PM | 10% | Lec06-08 | [[Q1-Q3.pdf](/hws/hw3/hw3_solution_Q1_Q3.pdf)],[[Q4-Q5.pdf](/hws/hw3/hw3_solution_Q4Q5.pdf)] |
