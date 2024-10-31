@@ -140,13 +140,15 @@ This is a preliminary schedule; it may change throughout the term.
 | 8 | Mon, Oct 21 | No class | | |
 |  | | Tutorial 6 (Review on MLE and GD) | [[Notes](/tutorials/tut06_note.pdf)] | |
 | | Wed, Oct 23 | **Midterm two** | | | 
-| 9 | Mon, Nov 4 | no class / tutorial | | 
+| 9 | Mon, Nov 4 | No class / tutorial | | 
 | | Wed, Nov 6 | Discriminant analysis <br> Support vector machine |  [[Lec09-DA.pdf](/lectures/lec-DA.pdf)], [To come: Lec10-SVM] | ISL 4.3-4.4  <br /> ESL 4.3-4.4  |
-| 10 | Mon, Nov 11 | Tutorial 7 (DA, SVM) |  | ISL 8.3, 9.6 |  
+| 10 | Mon, Nov 11 | No class |   |  |
+|  |  | Tutorial 7 (DA, SVM) |  | ISL 8.3, 9.6 |  
 | | Wed, Nov 13 |  Decision tree  | [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] | ISL 8.1 <br > ESL 9.2 |
-| 11 | Mon, Nov 18 | no class / tutorial | |
+| 11 | Mon, Nov 18 | No class / tutorial | |
 | | Wed, Nov 20 | Bootstrap, bagging <br /> random forest, boosting | [[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |    ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
-| 12 | Mon, Nov 25 | TBD | | |
+| 12 | Mon, Nov 25 | No class |   |  |
+| | | Tutorial: TBD | | |
 | | Wed, Nov 27 | TBD | |  | 
 
 <!-- 
