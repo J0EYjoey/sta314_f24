@@ -141,7 +141,7 @@ This is a preliminary schedule; it may change throughout the term.
 |  | | Tutorial 6 (Review on MLE and GD) | [[Notes](/tutorials/tut06_note.pdf)] | |
 | | Wed, Oct 23 | **Midterm two** | | | 
 | 9 | Mon, Nov 4 | No class / tutorial | | 
-| | Wed, Nov 6 | Discriminant analysis <br> Support vector machine |  [[Lec09-DA.pdf](/lectures/lec-DA.pdf)], [To come: Lec10-SVM] | ISL 4.3-4.4  <br /> ESL 4.3-4.4  |
+| | Wed, Nov 6 | Discriminant analysis <br> Support vector machine |  [[Lec09-DA.pdf](/lectures/lec-DA.pdf)], [[Lec10-SVM.pdf](/lectures/lec-svm.pdf)] | ISL 4.3-4.4  <br /> ESL 4.3-4.4  <br > [[Dual formulation and kernel trick](/tutorials/reading-svm.pdf)] |
 | 10 | Mon, Nov 11 | No class |   |  |
 |  |  | Tutorial 7 (DA, SVM) |  | ISL 8.3, 9.6 |  
 | | Wed, Nov 13 |  Decision tree  | [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] | ISL 8.1 <br > ESL 9.2 |
