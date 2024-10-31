@@ -140,14 +140,16 @@ This is a preliminary schedule; it may change throughout the term.
 | 8 | Mon, Oct 21 | No class | | |
 |  | | Tutorial 6 (Review on MLE and GD) | [[Notes](/tutorials/tut06_note.pdf)] | |
 | | Wed, Oct 23 | **Midterm two** | | | 
+| 9 | Mon, Nov 4 | no class / tutorial | | 
+| | Wed, Nov 6 | Discriminant analysis <br> Support vector machine |  [[Lec09-DA.pdf](/lectures/lec-DA.pdf)],  | ISL 4.3-4.4  <br /> ESL 4.3-4.4  |
+| 10 | Mon, Nov 11 | Tutorial 7 (DA, SVM) |  | ISL 8.3, 9.6 |  
+| | Wed, Nov 13 |  Decision tree  | [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] | ISL 8.1 <br > ESL 9.2 |
+| 11 | Mon, Nov 18 | no class / tutorial | |
+| | Wed, Nov 20 | Bootstrap, bagging <br /> random forest, boosting | [[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |    ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
+| 12 | Mon, Nov 25 | TBD | | |
+| | Wed, Nov 27 | TBD | |  | 
 
 <!-- 
-| 9 | Mon, Nov 4 | no class / tutorial | | 
-| | Wed, Nov 6 | Decision tree |  [[Lec11.pdf](/lectures/lec11.pdf)] | ISL 8.1  <br /> ESL 9.2  |
-| 10 | Mon, Nov 11 | Tutorial 6 (SVM, Tree-based methods) | | ISL 8.3, 9.6 |  
-| | Wed, Nov 13 |  Bootstrap, bagging <br /> random forest, boosting | [[Lec12.pdf](/lectures/lec12.pdf)] |    ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
-| 11 | Mon, Nov 18 | no class / tutorial | |
-| | Wed, Nov 20 | Neural network |[[Lec13.pdf](/lectures/lec13.pdf)] | ISL 10, ESL 11 | 
-| 12 | Mon, Nov 25 | Tutorial 7 (DNN) | | ISL 10.9 |
 | | Wed, Nov 27 | Unsupervised learning <br /> K-means clustering and PCA | [[Lec15.pdf](/lectures/lec15.pdf)] | ISL 12.1 - 12.3 <br /> ESL 14.3 <br /> PRML 9.1 | 
+| | Wed, Nov 27 | Neural network |[[Lec13.pdf](/lectures/lec13.pdf)] | ISL 10, ESL 11 | 
 -->
