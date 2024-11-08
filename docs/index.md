@@ -143,12 +143,12 @@ This is a preliminary schedule; it may change throughout the term.
 | 9 | Mon, Nov 4 | No class / tutorial | | 
 | | Wed, Nov 6 | Discriminant analysis <br> Support vector machine |  [[Lec09-DA.pdf](/lectures/lec-DA.pdf)], [[Lec10-SVM.pdf](/lectures/lec-svm.pdf)] | ISL 4.3-4.4  <br /> ESL 4.3-4.4  <br > [[Dual formulation and kernel trick](/tutorials/reading-svm.pdf)] |
 | 10 | Mon, Nov 11 | No class |   |  |
-|  |  | Tutorial 7 (DA, SVM) |  | ISL 8.3, 9.6 |  
-| | Wed, Nov 13 |  Decision tree  | [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] | ISL 8.1 <br > ESL 9.2 |
+|  |  | Tutorial 7 (Review on DA) | [[Notes](/tutorials/tut07.pdf)], [[R code](/tutorials/tut-DA.Rmd)] | ISL 8.3, 9.6 |  
+| | Wed, Nov 13 |  Decision tree  | [[Lec10-SVM.pdf](/lectures/lec-svm.pdf)], [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] | ISL 8.1 <br > ESL 9.2 |
 | 11 | Mon, Nov 18 | No class / tutorial | |
 | | Wed, Nov 20 | Bootstrap, bagging <br /> random forest, boosting | [[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |    ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
 | 12 | Mon, Nov 25 | No class |   |  |
-| | | Tutorial: TBD | | |
+| | | Tutorial (Review) | | |
 | | Wed, Nov 27 | TBD | |  | 
 
 <!-- 
