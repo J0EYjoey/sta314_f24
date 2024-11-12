@@ -16,6 +16,8 @@ We aim to use discriminant analysis to predict the stock price change:
 library(MASS)
 library(ISLR)
 
+attach(Smarket)
+
 train <- (Year < 2005) # split data into training and testing data
 test <- Smarket[!train, ]  # test data
 dim(test) # 252 * 9 for the testing data
