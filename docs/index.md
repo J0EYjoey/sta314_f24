@@ -146,10 +146,10 @@ This is a preliminary schedule; it may change throughout the term.
 |  |  | Tutorial 7 (Review on DA) | [[Notes](/tutorials/tut07.pdf)], [[R code](/tutorials/tut-DA.Rmd)] | ISL 8.3, 9.6 |  
 | | Wed, Nov 13 |  Decision tree  | [[Lec10-SVM.pdf](/lectures/lec-svm.pdf)], [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] | ISL 8.1 <br > ESL 9.2 |
 | 11 | Mon, Nov 18 | No class / tutorial | |
-| | Wed, Nov 20 | Bootstrap, bagging <br /> random forest, boosting | [[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |    ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] |
+| | Wed, Nov 20 | Decision tree (cont'd)  | [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] |   ISL 8.1 <br > ESL 9.2 |
 | 12 | Mon, Nov 25 | No class |   |  |
 | | | Tutorial (Review) | | |
-| | Wed, Nov 27 | TBD | |  | 
+| | Wed, Nov 27 | Bootstrap, bagging <br /> random forest, boosting |[[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |  ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] | 
 
 <!-- 
 | | Wed, Nov 27 | Unsupervised learning <br /> K-means clustering and PCA | [[Lec15.pdf](/lectures/lec15.pdf)] | ISL 12.1 - 12.3 <br /> ESL 14.3 <br /> PRML 9.1 | 
