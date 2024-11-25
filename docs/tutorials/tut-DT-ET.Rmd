@@ -1,0 +1,341 @@
+---
+title: "Chapter 8 lab: decision trees and bootstrap"
+author: "TA team"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+# Chapter 8.3 Lab: Decision Trees
+
+## Classification Trees
+
+Let's attach the data set first.
+
+```{r}
+rm(list = ls())
+library(tree)
+library(ISLR)
+attach(Carseats)
+```
+
+We then create the categorical response by setting $y = I\{\text{Sales}>8\}$.
+
+```{r}
+High <- as.factor(ifelse(Sales <= 8, "No", "Yes"))
+Carseats <- data.frame(Carseats, High)
+```
+
+The following code fits a classification tree by using all features except `Sales`. The `summary` function returns the summarized information of the fitted tree.
+
+```{r}
+tree.carseats <- tree(High~.-Sales, Carseats)
+summary(tree.carseats)
+```
+
+To visualize the fitted classification tree, you can use the following code. The argument `pretty=0` instructs `R` to include the category names for any qualitative predictors, rather than simply displaying a letter for each category.
+
+```{r}
+plot(tree.carseats)
+text(tree.carseats, pretty=0)  # you may compare with setting pretty = 1
+```
+
+To evaluate the classification procedure of a classification tree, let's split the whole data into training and testing data sets and compute the test error of the classification tree fitted from the training data set.
+
+```{r}
+# set the seed and randomly split the sample (50-50 split)
+set.seed(1)
+train <- sample(1:nrow(Carseats), nrow(Carseats) / 2)
+Carseats.test <- Carseats[-train,]
+High.test <- High[-train]
+
+# fit the tree by using the training data
+tree.carseats <- tree(High~.-Sales, Carseats, subset=train)
+
+# predict the test data by the fitted tree
+tree.pred <- predict(tree.carseats, Carseats.test, type="class")
+
+# contingency table
+table(tree.pred, High.test)
+
+# Remind yourselves how to compute the accuracy, FPR, FNR, etc from the 2 by 2 
+# contingency table. 
+```
+
+To prune the tree for improving prediction performance, we need to find the optimal level of tree complexity (i.e. finding the tuning parameter $\alpha$). We can use the cross-validation for this purpose.
+
+```{r}
+set.seed(1)
+cv.carseats <- cv.tree(tree.carseats, FUN = prune.misclass)
+names(cv.carseats)
+cv.carseats
+```
+
+The argument `prune.misclass` indicates that we want to select the best subtree by minimizing the misclassification error instead of the default option which uses the deviance.
+
+The `cv.tree()` returns the size and the misclassification error (`dev`) of each candidate subtree. For each size of subtrees, there is a corresponding $\alpha$ returned as well (named as `k`).
+
+Now let's plot the misclassification rate as a function of both `size` and `k`.
+
+```{r}
+par(mfrow=c(1,2))
+plot(cv.carseats$size, cv.carseats$dev, type="b") ## size = number of terminal nodes 
+plot(cv.carseats$k, cv.carseats$dev, type="b") ## k =the value of the cost-complexity pruning parameter 
+```
+
+The best model selected has size 6.
+
+```{r}
+best_size <- cv.carseats$size[which.min(cv.carseats$dev)]
+```
+
+We proceed to prune the tree to size 6 and compute its test error rate. The pruned tree has higher accuracy than its unpruned counterpart.
+
+```{r}
+prune.carseats <- prune.misclass(tree.carseats, best=best_size)
+plot(prune.carseats)
+text(prune.carseats, pretty=0)
+
+tree.pred <- predict(prune.carseats, Carseats.test, type="class")
+table(tree.pred,High.test)
+```
+
+## Regression Trees
+
+We now demonstrate how to fit a regression tree to the `Boston` data set.
+
+```{r}
+library(MASS)
+set.seed(2)
+train <- sample(1:nrow(Boston), nrow(Boston)/2)
+tree.boston <- tree(medv~., Boston, subset=train)
+summary(tree.boston)
+```
+
+We can similarly visualize the tree.
+
+```{r}
+plot(tree.boston)
+text(tree.boston, pretty = 0)
+```
+
+Pruning can be done by `cv.tree` as well.
+
+```{r}
+cv.boston <- cv.tree(tree.boston)
+plot(cv.boston$size, cv.boston$dev, type='b')
+
+best_size <- cv.boston$size[which.min(cv.boston$dev)]
+cat("The selected best subtree has size", best_size, "\n")
+
+prune.boston <- prune.tree(tree.boston, best=best_size)
+plot(prune.boston)
+text(prune.boston, pretty=0)
+```
+
+We finally plot the predicted value and compute the test MSE of the pruned tree.
+
+```{r}
+yhat <- predict(prune.boston, newdata = Boston[-train,])
+boston.test <- Boston[-train,"medv"]
+plot(yhat,boston.test)
+abline(0,1)
+mean((yhat-boston.test)^2)
+```
+
+# Bagging and Random Forests
+
+Since bagging is a special case of random forests (with $m = p$), both bagging and random forests can be applied by the package `randomForfest`. We apply both techniques to the `Boston` data set.
+
+The following code applies bagging as there are 13 features in total.
+
+```{r}
+library(randomForest)
+set.seed(1)
+bag.boston <- randomForest(medv~., data=Boston, subset=train, mtry=13, 
+                           importance=TRUE)
+bag.boston
+```
+
+Let's plot the predicted values and compute the test MSE of the bagging model.
+
+```{r}
+yhat.bag <- predict(bag.boston,newdata=Boston[-train,])
+plot(yhat.bag, boston.test)
+abline(0,1)
+mean((yhat.bag-boston.test)^2)
+```
+
+Now let's see if the prediction is affected by the number of simple decision trees used. This can be done by modifying `ntree`. Note the default in \``randomForest` is set to `ntree=500`.
+
+```{r}
+bag.boston <- randomForest(medv~., data=Boston, subset=train, mtry=13, ntree=25)
+yhat.bag <- predict(bag.boston, newdata=Boston[-train,])
+mean((yhat.bag-boston.test)^2)
+```
+
+Let's try the random forest with $m = 6$ and compare its prediction performance with bagging.
+
+```{r}
+set.seed(0)
+rf.boston <- randomForest(medv~., data=Boston, subset=train, mtry=6,
+                          importance=TRUE)
+yhat.rf <- predict(rf.boston,newdata=Boston[-train,])
+mean((yhat.rf-boston.test)^2)
+```
+
+The importance of each feature could be computed and plotted by the following code.
+
+```{r}
+importance(rf.boston)
+varImpPlot(rf.boston)
+```
+
+# Boosting
+
+Boosting is implemented in the `gbm` package. We apply boosting to predict `medv` by using other features. Since the response is continuous, we specify the `distribution = gaussian`. For classification, this needs to be changed `distribution=bernoulli`. The default shrinkage parameter (the step size $\lambda$ in lecture notes) is set to 0.1. The argument `interaction.depth` limits the maximal depth of each single decision tree.
+
+```{r}
+library(gbm)
+set.seed(1)
+boost.boston <- gbm(medv~.,data=Boston[train,], distribution="gaussian",
+                    n.trees=5000, interaction.depth=4) 
+```
+
+The `summary` function produces a relative influence plot and also outputs the relative influence statistics.
+
+```{r}
+summary(boost.boston)
+```
+
+We can use the fitted model to predct the test data. We see prediction improvence over bagging and random forests.
+
+```{r}
+yhat.boost <- predict(boost.boston, newdata=Boston[-train,], n.trees=5000)
+mean((yhat.boost-boston.test)^2)
+```
+
+We can also play around with the step size by changing `shrinkage` argument.
+
+```{r}
+boost.boston <- gbm(medv~., data=Boston[train,], distribution="gaussian",
+                    n.trees=5000, interaction.depth=4, shrinkage=0.2, verbose=F) 
+
+
+yhat.boost <- predict(boost.boston, newdata=Boston[-train,], n.trees=5000)
+mean((yhat.boost-boston.test)^2)
+```
+
+# The Bootstrap
+
+Bootstrap is implemented in the package `boot`. We will use the `ISLR` data set.
+
+```{r}
+library(boot)
+library(ISLR)
+```
+
+## The investment example
+
+Let's first code up a function that returns the $\hat\alpha$ from a given training data set with specified indices (rows in the training data).
+
+```{r}
+alpha.fn <- function(data, index){  
+  # define a function of data and index to calculate \hat\alpha
+  X <- data$X[index]
+  Y <- data$Y[index]
+  alpha_hat <- (var(Y) - cov(X,Y)) / (var(X) + var(Y) - 2*cov(X,Y))
+  return(alpha_hat)
+}
+```
+
+Let's try to apply this to the `Portfolio` data set.
+
+```{r}
+alpha.fn(Portfolio, 1:nrow(Portfolio))
+```
+
+For each bootstrap data set, we have
+
+```{r}
+set.seed(1)
+alpha.fn(Portfolio, sample(nrow(Portfolio), nrow(Portfolio), replace=T))
+```
+
+The `boot` function takes your defined function, the given data set, and the number of bootstrap replicates.
+
+```{r}
+res_bt <- boot(Portfolio, alpha.fn, R = 1000)   # bootstrap with B=1000 replications
+summary(res_bt)
+```
+
+The estimated $\hat \alpha$'s are stored in `res_bt$t`.
+
+```{r}
+hist(res_bt$t, main = "Histogram of the estimated alpha's", xlab = "The estimated alpha's")
+abline(v = res_bt$t0, col = 2) # this is the original \hat \alpha
+```
+
+## Quantifying the uncertainty of the OLS approach
+
+Let us try to apply the bootstrap to quantify the uncertainty of the OLS estimator under linear regressions.
+
+We use the `Auto` data in this example. The following code implements the OLS procedure for predicting `mpg` by using `horsepower` from the `Auto` data with selected indices (in `index`).
+
+```{r}
+boot.fn <- function(data,index) {
+  # define a function of computing the OLS coefficients
+  fitted_lm <- lm(mpg ~ horsepower, data = data, subset = index)
+  return(coef(fitted_lm))
+}
+```
+
+Using the whole data, the OLS produces the estimated coefficient $\hat \beta_1$
+
+```{r}
+n_Auto <- nrow(Auto)
+
+boot.fn(Auto, 1:n_Auto)
+```
+
+Now let's apply bootstrap to quantify the uncertainty of $\hat \beta_1$.
+
+```{r}
+set.seed(1) 
+auto_bt <- boot(Auto, boot.fn, R = 1000) # bootstrap results
+```
+
+We can compare the Bootstrap estimates with the original OLS coefficient $\hat \beta_1$.
+
+```{r}
+hist(auto_bt$t[,2], main = "Histogram of the bootstrap estimated coefficients",
+     xlab = "The bootstrap estimated coefficients")
+abline(v = summary(lm(mpg~horsepower,data=Auto))$coef[2], col = 2)
+```
+
+On top of this, you estimate ALL moments of $\hat \beta_1$, quantiles of $\hat \beta_1$, etc.
+
+# An example of 2-degree polynomial
+
+In the end, we use bootstrap to quantify the uncertainty of estimated coefficients of a 2-degree polynomial that uses both `horsepower` and its square to predict `mpg`.
+
+Start by defining the function of fitting a 2-degree polynomial.
+
+```{r}
+boot.fn <- function(data, index) {
+  fitted_lm <- lm(mpg ~ horsepower + I(horsepower^2), data=data, subset=index)
+  return(coefficients(fitted_lm))
+}
+```
+
+We compare the means of the estimated coefficients of the bootstrap samples with the original estimated ones.
+
+```{r}
+set.seed(1)
+poly_bt <- boot(Auto, boot.fn, 1000)
+
+cat("The means of bootstrap estimated coefficients are", round(apply(poly_bt$t, 2, mean), 3), "while the original estimated coefificents are", round(summary(lm(mpg ~ horsepower + I(horsepower^2), data=Auto))$coef[1:3], 3))
+```
