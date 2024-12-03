@@ -148,8 +148,8 @@ This is a preliminary schedule; it may change throughout the term.
 | 11 | Mon, Nov 18 | No class / tutorial | |
 | | Wed, Nov 20 | Decision tree (cont'd)  | [[Lec11-DT.pdf](/lectures/lec-DT.pdf)] |   ISL 8.1 <br > ESL 9.2 |
 | 12 | Mon, Nov 25 | No class |   |  |
-| | | Tutorial (Kernel tricks) | [[Notes](/tutorials/tut08.pdf)], [[R code](/tutorials/tut-DT-ET.Rmd)] | ISL 9  <br > ESL 12.1-12.3 |
-| | Wed, Nov 27 | Bootstrap, bagging <br /> random forest, boosting |[[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |  ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)] | 
+| | | Tutorial (Kernel tricks) | [[Notes](/tutorials/tut08.pdf)] | ISL 9  <br > ESL 12.1-12.3 |
+| | Wed, Nov 27 | Bootstrap, bagging <br /> random forest, boosting |[[Lec12-ET.pdf](/lectures/lec-ET.pdf)] |  ISL 5.2, 5.3.4, 8.2 <br /> ESL 7.11, 8.7, 10.1, 15 <br /> [[Gradient boosting machine](/tutorials/gradient_boosting_machine.pdf)], <br> [[R code on tree-based algorithms](/tutorials/tut-DT-ET.Rmd)] | 
 
 <!-- 
 | | Wed, Nov 27 | Unsupervised learning <br /> K-means clustering and PCA | [[Lec15.pdf](/lectures/lec15.pdf)] | ISL 12.1 - 12.3 <br /> ESL 14.3 <br /> PRML 9.1 | 
